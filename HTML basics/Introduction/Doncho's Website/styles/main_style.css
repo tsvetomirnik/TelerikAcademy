@@ -1,0 +1,12 @@
+body { background-color: #ccecff; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #4682B4;
+}
+
+p, li { color: #003366; }
+
+nav { margin-bottom: 30px; }

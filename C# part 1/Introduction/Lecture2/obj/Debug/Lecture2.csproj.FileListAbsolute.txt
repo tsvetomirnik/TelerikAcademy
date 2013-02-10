@@ -1,0 +1,6 @@
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\bin\Debug\Lecture2.exe.config
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\bin\Debug\Lecture2.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\bin\Debug\Lecture2.pdb
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\obj\Debug\Lecture2.csprojResolveAssemblyReference.cache
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\obj\Debug\Lecture2.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\Lecture2\obj\Debug\Lecture2.pdb

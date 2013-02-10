@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="525232A4-68AF-4A3A-AF12-9CD83995411F" ModuleId="SumOfTreeIntegers" />
+  <Module PersistentId="BE7C4308-63EF-4CA0-BD91-832BB1E09EE0" ModuleId="QuadraticEquation" />
+  <Module PersistentId="9C9E922A-3D12-4587-AFBA-8B1F55E39E4E" ModuleId="DivisionBy5" />
+  <Module PersistentId="28D6AAB5-3BE5-459C-91AC-57547C6B4612" ModuleId="SumFractionalNumbers" />
+  <Module PersistentId="E2599D4F-F302-4582-85A5-5BD7CAD44BD0" ModuleId="ReadRadius" />
+  <Module PersistentId="76F87D5F-0C89-4474-9EE2-9E5388E1B4AF" ModuleId="PrintRange" />
+  <Module PersistentId="F4C136EB-D756-4CD3-8D17-8C38913721E6" ModuleId="PrintMaxValue" />
+  <Module PersistentId="7C3FC2EB-8821-4AE9-9F80-3BBFA54D2460" ModuleId="FibonacciSequence" />
+  <Module PersistentId="75631258-A6CA-443A-9FE5-430449051200" ModuleId="SumXNumbers" />
+  <Module PersistentId="DFE0E470-AD28-43F1-ABE3-8C018EA756BA" ModuleId="CompanyInfo" />
+</Modules>

@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Loops\PrintNumbersToN\bin\Debug\PrintNumbersToN.exe.config
+C:\Users\student\Desktop\Loops\PrintNumbersToN\bin\Debug\PrintNumbersToN.exe
+C:\Users\student\Desktop\Loops\PrintNumbersToN\bin\Debug\PrintNumbersToN.pdb
+C:\Users\student\Desktop\Loops\PrintNumbersToN\obj\Debug\PrintNumbersToN.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Loops\PrintNumbersToN\obj\Debug\PrintNumbersToN.exe
+C:\Users\student\Desktop\Loops\PrintNumbersToN\obj\Debug\PrintNumbersToN.pdb

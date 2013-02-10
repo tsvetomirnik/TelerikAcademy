@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintMaxValue\bin\Debug\PrintMaxValue.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintMaxValue\bin\Debug\PrintMaxValue.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintMaxValue\bin\Debug\PrintMaxValue.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintMaxValue\obj\Debug\PrintMaxValue.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintMaxValue\obj\Debug\PrintMaxValue.pdb

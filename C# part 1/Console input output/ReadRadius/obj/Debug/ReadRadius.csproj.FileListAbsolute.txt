@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\bin\Debug\ReadRadius.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\bin\Debug\ReadRadius.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\bin\Debug\ReadRadius.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\obj\Debug\ReadRadius.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\obj\Debug\ReadRadius.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\ReadRadius\obj\Debug\ReadRadius.csprojResolveAssemblyReference.cache

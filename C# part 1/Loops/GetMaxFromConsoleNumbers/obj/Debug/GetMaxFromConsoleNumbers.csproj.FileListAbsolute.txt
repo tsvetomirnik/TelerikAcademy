@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Loops\GetMaxFromConsoleNumbers\bin\Debug\GetMaxFromConsoleNumbers.exe.config
+C:\Users\student\Desktop\Loops\GetMaxFromConsoleNumbers\bin\Debug\GetMaxFromConsoleNumbers.exe
+C:\Users\student\Desktop\Loops\GetMaxFromConsoleNumbers\bin\Debug\GetMaxFromConsoleNumbers.pdb
+C:\Users\student\Desktop\Loops\GetMaxFromConsoleNumbers\obj\Debug\GetMaxFromConsoleNumbers.exe
+C:\Users\student\Desktop\Loops\GetMaxFromConsoleNumbers\obj\Debug\GetMaxFromConsoleNumbers.pdb

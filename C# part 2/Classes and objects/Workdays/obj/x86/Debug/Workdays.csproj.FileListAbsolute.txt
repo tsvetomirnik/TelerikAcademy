@@ -1,0 +1,4 @@
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\Workdays\bin\Debug\Workdays.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\Workdays\bin\Debug\Workdays.pdb
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\Workdays\obj\x86\Debug\Workdays.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\Workdays\obj\x86\Debug\Workdays.pdb

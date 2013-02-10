@@ -1,0 +1,4 @@
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\DayOfWeek\bin\Debug\DayOfWeek.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\DayOfWeek\bin\Debug\DayOfWeek.pdb
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\DayOfWeek\obj\x86\Debug\DayOfWeek.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\DayOfWeek\obj\x86\Debug\DayOfWeek.pdb

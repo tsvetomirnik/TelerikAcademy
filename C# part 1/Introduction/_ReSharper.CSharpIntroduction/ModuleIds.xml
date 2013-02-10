@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="DCF0B8A6-1894-4697-9B9B-CBB601FE2DEA" ModuleId="CSharpIntroduction" />
+  <Module PersistentId="32C8D3ED-4E3A-4409-9431-E9AA5B5F5EAD" ModuleId="Lecture2" />
+  <Module PersistentId="5862239F-D7D6-478A-8F9D-A21455C7ADA8" ModuleId="WriteSqrt" />
+  <Module PersistentId="9E049DE1-2479-4005-B711-F73AFBE907E7" ModuleId="WriteSequence" />
+  <Module PersistentId="FD277F4B-236A-4F48-BA2D-4ABA577CADAD" ModuleId="WriteAgeAfterTenYears" />
+  <Module PersistentId="F7F31FE5-5227-43E8-8B57-C6920E2D474F" ModuleId="HelloWorld" />
+  <Module PersistentId="8342515A-78C6-4FF6-927B-4B90304C337C" ModuleId="WriteBinaryNumbers" />
+</Modules>

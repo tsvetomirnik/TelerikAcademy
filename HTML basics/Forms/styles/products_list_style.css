@@ -1,0 +1,38 @@
+body{
+	font-family:Arial;
+	color: #444444; 
+	font-size: 12px;
+}
+		
+thead, tfoot{
+	background: #dfe3e8;
+}
+			
+td, th{
+	border-bottom: 1px solid #c2c6cb;
+	border-left: 1px solid #c2c6cb;
+				
+}
+			
+tr:hover{
+	background: #e7eaf2;
+}
+			
+table{
+	border-top: 1px solid #c2c6cb;
+	border-right: 1px solid #c2c6cb;
+}
+			
+input.simpleButton {
+	background: none;
+	border: none;
+	padding: 0px;
+	cursor: pointer; 
+}
+
+.rightAlignedText { text-align: right; }
+      
+.nonBordered,
+.nonBordered td {
+    border: 0px;
+}

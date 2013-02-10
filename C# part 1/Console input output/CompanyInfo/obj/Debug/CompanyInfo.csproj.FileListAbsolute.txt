@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\CompanyInfo\bin\Debug\CompanyInfo.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\CompanyInfo\bin\Debug\CompanyInfo.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\CompanyInfo\bin\Debug\CompanyInfo.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\CompanyInfo\obj\Debug\CompanyInfo.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\CompanyInfo\obj\Debug\CompanyInfo.pdb

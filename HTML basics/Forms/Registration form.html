@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registration form</title>
+		<meta charset="utf-8" />
+        <meta name="author" content="Tsvetomir Nikolov"/>
+    </head>
+    <body>
+		<form method="POST" action="SomeAction.php">
+		<table width="600" border="1" cellspacing="0" cellpadding="2">
+			<colgroup>
+				<col width="160"/>
+				<col />
+				<col />
+				<col />
+			</colgroup>
+			<tfoot>
+				<tr>
+					<td colspan="4" align="center" bgcolor="AquaBlue">
+						<input type="submit" value="Submit"/>
+						<input type="reset" value="Clear this form"/>
+					</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				
+				<tr>
+					<td>
+						<label for="fieldLastName">Last Name</label>
+					</td>
+					<td colspan="3">
+						<input type="text" size="60" id="fieldLastName" name="LastName" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fieldFirstName">First Name</label>
+					</td>
+					<td colspan="3">
+						<input type="text" size="60" id="fieldFirstName" name="FirstName" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="areaAddress">Address</label>
+					</td>
+					<td colspan="3">
+						<textarea type="text" cols="50" rows="3" id="areaAddress" name="Address" placeholder="Inser your address."></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fieldCity">City</label>
+					</td>
+					<td>
+						<input type="text" id="fieldCity" name="City" required="required"/>
+					</td>
+					<td>
+						<label for="fieldState">State</label>
+					</td>
+					<td>
+						<input type="text" id="fieldState" name="State" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fieldPostalCode">Zip/Postal code</label>
+					</td>
+					<td colspan="3">
+						<input type="text" id="fieldPostalCode" name="PostalCode" MaxLength="4" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="selectCountry">Country</label>
+					</td>
+					<td colspan="3">
+						<select id="selectCountry" name="Country">
+							<option value="Sofia">Sofia</option>
+							<option value="Other">Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fieldCountryCode">Phone (country, area code, number)</label>
+					</td>
+					<td colspan="3">
+						(+
+						<input type="text" size="5" id="fieldCountryCode" name="CountryCode" MaxLength="3" />
+						)
+						<input type="text" size="5" id="fieldArealCode" name="AreaCode" MaxLength="2" />
+						-
+						<input type="text" size="12" id="fieldPhoneNumber" name="PhoneNumber" MaxLength="6" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fieldEmail">Email</label>
+					</td>
+					<td colspan="3">
+						<input type="email" id="fieldEmail" name="Email" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="numberBirthDateMonth">Birth Date</label>
+					</td>
+					<td colspan="3">
+						<label for="numberBirthDateMonth">Month</label>
+						<input type="number" id="numberBirthDateMonth" name="BirthDateMonth" value="1" min="1" max="12" required="required"/>
+						<label for="numberBirthDateDay">Day</label>
+						<input type="number" id="numberBirthDateDay" name="BirthDateDay" value="1" min="1" max="31" required="required"/>
+						<label for="numberBirthDateYear">Year</label>
+						<!-- TODO: Use JS to set max value to this year -->
+						<input type="number" id="numberBirthDateYear" name="BirthDateYear" value="1900" min="1900" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="selectGender">Gender</label>
+					</td>
+					<td colspan="3">
+						<select id="selectGender" name="Gender">
+							<option value="0">Male</option>
+							<option value="1">Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Starting Date</label>
+					</td>
+					<td colspan="3">
+						<input type="radio" id="radioSept2010" name="StartingDame" value="01/09/2010" checked="checked"/>
+						<label for="radioSept2010">September 2010</label>
+						<input type="radio" id="radioSept2011" name="StartingDame" value="01/09/2011"/>
+						<label for="radioSept2011">September 2011</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="areaComments">Comments</label>
+					</td>
+					<td colspan="3">
+						<textarea type="text" cols="50" rows="3" id="areaComments" name="Comments" placeholder="Inser your comment here."></textarea>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+    </body>
+</html>

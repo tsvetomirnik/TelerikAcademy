@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Loops\DevideFactorials\bin\Debug\DevideFactorials.exe.config
+C:\Users\student\Desktop\Loops\DevideFactorials\bin\Debug\DevideFactorials.exe
+C:\Users\student\Desktop\Loops\DevideFactorials\bin\Debug\DevideFactorials.pdb
+C:\Users\student\Desktop\Loops\DevideFactorials\obj\Debug\DevideFactorials.exe
+C:\Users\student\Desktop\Loops\DevideFactorials\obj\Debug\DevideFactorials.pdb

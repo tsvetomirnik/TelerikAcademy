@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartesian Coordinate System", "Cartesian Coordinate System\Cartesian Coordinate System.csproj", "{BB69171B-0707-49E6-A3CC-F569680CEC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miss Cat", "Miss Cat\Miss Cat.csproj", "{2CD0B7FA-6AB5-4E9A-8C0F-39C9AD9075B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForestRoad", "ForestRoad\ForestRoad.csproj", "{91288662-4954-41E8-904D-F6DF92D5C86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB69171B-0707-49E6-A3CC-F569680CEC6F}.Debug|x86.ActiveCfg = Debug|x86
+		{BB69171B-0707-49E6-A3CC-F569680CEC6F}.Debug|x86.Build.0 = Debug|x86
+		{BB69171B-0707-49E6-A3CC-F569680CEC6F}.Release|x86.ActiveCfg = Release|x86
+		{BB69171B-0707-49E6-A3CC-F569680CEC6F}.Release|x86.Build.0 = Release|x86
+		{2CD0B7FA-6AB5-4E9A-8C0F-39C9AD9075B6}.Debug|x86.ActiveCfg = Debug|x86
+		{2CD0B7FA-6AB5-4E9A-8C0F-39C9AD9075B6}.Debug|x86.Build.0 = Debug|x86
+		{2CD0B7FA-6AB5-4E9A-8C0F-39C9AD9075B6}.Release|x86.ActiveCfg = Release|x86
+		{2CD0B7FA-6AB5-4E9A-8C0F-39C9AD9075B6}.Release|x86.Build.0 = Release|x86
+		{91288662-4954-41E8-904D-F6DF92D5C86D}.Debug|x86.ActiveCfg = Debug|x86
+		{91288662-4954-41E8-904D-F6DF92D5C86D}.Debug|x86.Build.0 = Debug|x86
+		{91288662-4954-41E8-904D-F6DF92D5C86D}.Release|x86.ActiveCfg = Release|x86
+		{91288662-4954-41E8-904D-F6DF92D5C86D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

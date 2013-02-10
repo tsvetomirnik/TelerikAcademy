@@ -1,0 +1,5 @@
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\WriteSqrt\bin\Debug\WriteSqrt.exe.config
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\WriteSqrt\bin\Debug\WriteSqrt.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\WriteSqrt\bin\Debug\WriteSqrt.pdb
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\WriteSqrt\obj\Debug\WriteSqrt.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\WriteSqrt\obj\Debug\WriteSqrt.pdb

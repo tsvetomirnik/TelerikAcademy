@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animals</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <script>
+            function set_selected(element) {
+                var selected = document.getElementById("selected");
+                if (selected != null) {
+                    selected.removeAttribute('id');
+                }
+                
+                element.id = "selected";
+                document.getElementById("preview").src = element.src;
+            }
+        </script>
+    </head>
+    <body>
+        <article id="gallery">
+            <ul id="selector">
+                <li><img onclick="set_selected(this);" src="images/adorable cat.jpg" alt="cat"/></li>
+                <li><img onclick="set_selected(this);" src="images/cat.jpg" alt="cat"/></li>
+                <li><img onclick="set_selected(this);" src="images/white lion.jpg" alt="white lion"/></li>
+                <li><img onclick="set_selected(this);" src="images/coala.jpg" alt="coala"/></li>
+                <li><img onclick="set_selected(this);" src="images/puppies.jpg" alt="puppies"/></li>
+                <li><img onclick="set_selected(this);" src="images/tiger.jpg" alt="tiger"/></li>
+                <li><img onclick="set_selected(this);" src="images/cat.jpg" alt="cat"/></li>
+            </ul>
+            <img id="preview" alt="Select an image"/>
+        </article>
+    </body>
+</html>

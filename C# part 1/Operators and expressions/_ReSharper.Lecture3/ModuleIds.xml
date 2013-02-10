@@ -1,0 +1,15 @@
+<Modules>
+  <Module PersistentId="CC2347BD-7B9F-4F46-A564-7B14005E14EC" ModuleId="OddOrEven" />
+  <Module PersistentId="F0824F1C-C88B-4789-A494-9AC6E59CC765" ModuleId="CheckIsPointWithinACircle" />
+  <Module PersistentId="1F2C3487-E151-4148-A912-4B4B03580F0C" ModuleId="IsNumberPrime" />
+  <Module PersistentId="AE800C62-3E35-4DC2-8CC2-1E7CF6E2F747" ModuleId="TrapezoidArea" />
+  <Module PersistentId="009F4174-DF41-4464-A169-9D506F7CB4C8" ModuleId="CheckNumberBit" />
+  <Module PersistentId="6F6E313E-ACD9-48FD-AD54-0E7596D3C979" ModuleId="FindTheThirdBit" />
+  <Module PersistentId="14F0C177-0E4E-4B0C-ADBB-E0931783EDC5" ModuleId="GetBitFromNumber" />
+  <Module PersistentId="766327AD-C4E9-4DF3-BA49-953CD721BC27" ModuleId="SetNumberBitValue" />
+  <Module PersistentId="E39C27F2-3975-4E5B-AC82-4CF94572344F" ModuleId="RectangleArea" />
+  <Module PersistentId="62A6DCA1-071F-4D03-8BB2-68B7D88635E0" ModuleId="IsThirdDigit7" />
+  <Module PersistentId="C43132FC-20DD-461E-A196-1E90E1282EC4" ModuleId="DividedBy5And7" />
+  <Module PersistentId="B27054FA-42D2-4507-B530-70256FC8F021" ModuleId="BitExchanges" />
+  <Module PersistentId="4E36A04E-A329-40B8-BB50-479515B8D05B" ModuleId="CircleAndRectangle" />
+</Modules>

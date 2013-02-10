@@ -1,0 +1,11 @@
+<Modules>
+  <Module PersistentId="64CF1510-6CA2-4745-868C-10D11D4F582F" ModuleId="OddLinesPrinter" />
+  <Module PersistentId="17C1DB6E-116A-4A68-8B74-F007509330CB" ModuleId="TwoFilesInOne" />
+  <Module PersistentId="E50DD480-739B-4919-ACAA-C233DBB9BD08" ModuleId="LineNumbersInserter" />
+  <Module PersistentId="ED534B79-CF8F-4DD1-9A4B-E1FA208EF26F" ModuleId="LinesComparison" />
+  <Module PersistentId="161C6FDB-820D-4042-BCCA-DEB879C03C0E" ModuleId="FileLinesSorter" />
+  <Module PersistentId="A6C2AD5D-F157-4CF5-BB78-F02E3D35C5D3" ModuleId="StringReplacer" />
+  <Module PersistentId="08CA547B-F472-44B3-B2F4-1BAF76A6834F" ModuleId="XmlTextExtractor" />
+  <Module PersistentId="0B68707A-99F1-4363-94F5-9A013FFD3A88" ModuleId="OddLinesRemover" />
+  <Module PersistentId="9E890654-937F-4A68-9FC8-03250C45C1FC" ModuleId="DeletePrefixWords" />
+</Modules>

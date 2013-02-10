@@ -1,0 +1,4 @@
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\SumStringNumbers\bin\Debug\SumStringNumbers.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\SumStringNumbers\bin\Debug\SumStringNumbers.pdb
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\SumStringNumbers\obj\x86\Debug\SumStringNumbers.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\SumStringNumbers\obj\x86\Debug\SumStringNumbers.pdb

@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintRange\bin\Debug\PrintRange.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintRange\bin\Debug\PrintRange.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintRange\bin\Debug\PrintRange.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintRange\obj\Debug\PrintRange.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\PrintRange\obj\Debug\PrintRange.pdb

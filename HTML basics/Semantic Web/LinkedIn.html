@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LinkedIn</title>
+		<meta charset="utf-8" />
+        <meta name="author" content="Tsvetomir Nikolov"/>
+    </head>
+    <body>
+		<header>
+			<h2>
+				<a href="#" title="Homepage">LinkedIn</a>
+			</h2>
+			<nav>
+				<ul>
+					<li><a href="#" title="Homepage">Home</a></li>
+					<li><a href="#" title="About the project">What is LinkedIn?</a></li>
+					<li><a href="#" title="Register">Join Today</a></li>
+					<li>
+						<fieldset>
+							<legend>Sign In</legend>
+							<form method="POST" action="login.php">
+								<ul>
+									<li>
+										<label for="inputEmail">Email:</label>
+										<input type="text" id="inputEmail" name="Email" required="required"/>
+									</li>
+									<li>
+										<label for="inputPassword">Password:</label>
+										<input type="password" id="inputPassword" name="Password" required="required"/>
+									</li>
+								</ul>
+								<input type="submit" value="Sign In"/>
+							</form>
+						</fieldset>
+					</li>
+				</ul>
+			</nav>
+			<div>
+				<h1>Over 175 million preofessionals use LinkedIn to exchange information</h1>
+				<ul>
+					<li>Stay informed about your contracts and industry</li>
+					<li>Find people &amp; knowedge you need to achieve your goals</li>
+					<li>Control your professional identity online</li>
+				</ul>
+				
+				<article>
+					<h2>Join LinkedIn Today</h2>
+					<fieldset>
+						<legend>Sign Up</legend>
+						<form method="POST" action="register.php">
+							<ul>
+								<li>
+									<label for="inputFName">First Name:</label>
+									<input type="text" id="inputFName" name="FirstName" required="required"/>
+								</li>
+								<li>
+									<label for="inputLName">Last Name:</label>
+									<input type="password" id="inputLName" name="LastName" required="required"/>
+								</li>
+								<li>
+									<label for="inputPasswd">Password:</label>
+									<input type="password" id="inputPasswd" name="Password" required="required"/>
+									<p>6 or more characters</p>
+								</li>		
+							</ul>
+							<input type="submit" value="Join Now"/>
+                             <p>
+							    Already on LinkedIn?
+							    <a href="#" title="Sign in">Sign in</a>
+						    </p>
+						</form>
+					</fieldset>
+				</article>
+				<article>
+					<h3>Search for someone by name:</h3>
+					<form method="POST" action="search.php">
+						<ul>
+							<li>
+								<label for="inputSearchFName">First Name:</label>
+								<input type="text" id="inputSearchFName" name="FirstName" required="required"/>
+							</li>
+							<li>
+								<label for="inputSearchLName">Last Name:</label>
+								<input type="password" id="inputSearchLName" name="LastName" required="required"/>
+							</li>	
+						</ul>
+						<input type="submit" value="Go"/>
+					</form>
+				</article>
+			</div>
+		</header>
+    </body>
+</html>

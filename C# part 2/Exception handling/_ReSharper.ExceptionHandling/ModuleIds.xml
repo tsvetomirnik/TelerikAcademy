@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="1BE51269-E848-4E20-83CA-AE367CC08845" ModuleId="SquareRoot" />
+  <Module PersistentId="363A5F83-3E7C-4871-8736-356FDE0A0D85" ModuleId="ConsoleNumberReader" />
+  <Module PersistentId="B4517F95-7408-4AF8-ADCB-BF8AD1F9EC11" ModuleId="ReadFileContent" />
+  <Module PersistentId="45006411-87DB-40D5-BB77-C8E93BF1E664" ModuleId="FileDownloader" />
+</Modules>

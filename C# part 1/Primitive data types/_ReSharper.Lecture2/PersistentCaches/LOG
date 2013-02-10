@@ -1,0 +1,5 @@
+2012/11/06-19:24:29.914 fd0 Recovering log #3
+2012/11/06-19:24:29.915 fd0 Level-0 table #5: started
+2012/11/06-19:24:30.048 fd0 Level-0 table #5: 42322 bytes OK
+2012/11/06-19:24:30.263 fd0 Delete type=0 #3
+2012/11/06-19:24:30.263 fd0 Delete type=3 #2

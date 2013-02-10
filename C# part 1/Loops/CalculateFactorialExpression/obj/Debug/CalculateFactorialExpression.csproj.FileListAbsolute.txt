@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\bin\Debug\CalculateFactorialExpression.exe.config
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\bin\Debug\CalculateFactorialExpression.exe
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\bin\Debug\CalculateFactorialExpression.pdb
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\obj\Debug\CalculateFactorialExpression.exe
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\obj\Debug\CalculateFactorialExpression.pdb
+C:\Users\student\Desktop\Loops\CalculateFactorialExpression\obj\Debug\CalculateFactorialExpression.csprojResolveAssemblyReference.cache

@@ -1,0 +1,25 @@
+1: Here are some suggestions:
+
+2: Reload this webpage later.
+
+3: Check your Internet connection. Restart any router, modem,
+4: or other network devices you may be using.
+
+5: Check your DNS settings. Contact your network administrator
+6: if you're not sure what this means.
+
+7: Try disabling network prediction by following these steps:
+8: Go to the Chrome menu > Settings > Show advanced settings...
+9: and deselect "Predict network actions to improve page load 
+10: performance." If this does not resolve the issue, we 
+11: recommend selecting this option again for improved performance.
+
+12: Add Google Chrome as a permitted program in your firewall's or
+13: antivirus software's settings. If it is already a permitted 
+14: program, try deleting it from the list of permitted programs 
+15: and adding it again.
+
+16: If you use a proxy server, check your proxy settings or contact
+17: your network administrator to make sure the proxy server is 
+18: working.
+

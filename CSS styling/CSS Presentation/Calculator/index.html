@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+	</head>
+	<body>
+        <article class="window">
+            <header>
+                <img id="icon" src="images/calculator_icon.png"/>
+                <h1>Calculator</h1>
+                <ul id="window_buttons" class="clearfix">
+                    <li><button id="Button1"><img alt="close" src="images/close_button.png"/></button></li>
+                    <li><button id="Button2" disabled="disabled"><img alt="maximize" src="images/maximize_button.png"/></button></li>
+                    <li><button id="minimize_button"><img alt="minimize" src="images/minimize_button.png"/></button></li>
+                </ul>
+            </header>
+            <div id="window_content">
+                <ul id="context_menu" class="clearfix">
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div id="working_area">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="input" id="number_field"/>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                <table id="binary_panel" width="380">
+                                    <tr>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">63</td>
+                                        <td colspan="3">47</td>
+                                        <td>32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0001</td>
+                                        <td>11100</td>
+                                        <td>0010</td>
+                                        <td>0100</td>
+                                        <td>0000</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">31</td>
+                                        <td colspan="3">15</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                <table width="380" height="192">
+                                    <tr>
+                                        <td rowspan="3">
+                                            <fieldset>
+                                                <label>
+                                                    <input type="radio" name="base" value="Hex"/>Hex<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="base" value="Dec"/>Dec<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="base" value="Oct"/>Oct<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="base" value="Bin"/>Bin<br/>
+                                                </label>
+                                            </fieldset>
+                                        </td>
+                                        <td><input type="button" disabled="disabled"/></td>
+                                        <td><input type="button" value="Mod"/></td>
+                                        <td><input type="button" value="A" class="big_value" disabled="disabled"/></td>
+                                        <td><input type="button" class="darker big_value" value="MC"/></td>
+                                        <td><input type="button" class="darker big_value" value="MR"/></td>
+                                        <td><input type="button" class="darker big_value" value="MS"/></td>
+                                        <td><input type="button" class="darker big_value" value="M+"/></td>
+                                        <td><input type="button" class="darker big_value" value="M-"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="button" value="("/></td>
+                                        <td><input type="button" value=")"/></td>
+                                        <td><input type="button" value="B" class="big_value" disabled="disabled"/></td>
+                                        <td><input type="button" value="&larr;"/></td>
+                                        <td><input type="button" value="CE"/></td>
+                                        <td><input type="button" value="C"/></td>
+                                        <td><input type="button" value="&plusmn;"/></td>
+                                        <td><input type="button" value="&radic;" disabled="disabled"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="button" value="RoL"/></td>
+                                        <td><input type="button" value="RoR"/></td>
+                                        <td><input type="button" value="C" class="big_value" disabled="disabled"/></td>
+                                        <td><input type="button" class="distinct big_value" value="7"/></td>
+                                        <td><input type="button" class="distinct big_value" value="8"/></td>
+                                        <td><input type="button" class="distinct big_value" value="9"/></td>
+                                        <td><input type="button" value="&frasl;"/></td>
+                                        <td><input type="button" value="&#37;" disabled="disabled"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">
+                                            <fieldset>
+                                                <label>
+                                                    <input type="radio" name="type" value="Qword"/>Qword<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="type" value="Dword"/>Dword<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="type" value="Word"/>Word<br/>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="type" value="Byte"/>Byte<br/>
+                                                </label>
+                                            </fieldset>
+                                        </td>
+                                        <td><input type="button" value="Or"/></td>
+                                        <td><input type="button" value="Xor"/></td>
+                                        <td><input type="button" value="D" class="big_value" disabled="disabled"/></td>
+                                        <td><input type="button" class="distinct big_value" value="4"/></td>
+                                        <td><input type="button" class="distinct big_value" value="5"/></td>
+                                        <td><input type="button" class="distinct big_value" value="6"/></td>
+                                        <td><input type="button" value="&#42;"/></td>
+                                        <td><input type="button" value="1/x" disabled="disabled"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="button" value="Lsh"/></td>
+                                        <td><input type="button" value="Rsh"/></td>
+                                        <td><input type="button" value="E" class="big_value" disabled="disabled"/></td>
+                                        <td><input type="button" class="distinct big_value" value="1"/></td>
+                                        <td><input type="button" class="distinct big_value" value="2"/></td>
+                                        <td><input type="button" class="distinct big_value" value="3"/></td>
+                                        <td><input type="button" value="-"/></td>
+                                        <td rowspan="2"><input type="button" class="normal double_height big_value bold_value" value="="/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="button" value="Not"/></td>
+                                        <td><input type="button" value="And"/></td>
+                                        <td><input type="button" value="F" class="big_value" disabled="disabled"/></td>
+                                        <td colspan="2"><input type="button" class="distinct double_width" value="0"/></td>
+                                        <td><input type="button" value="." disabled="disabled"/></td>
+                                        <td><input type="button" value="+"/></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+	</body>
+</html>

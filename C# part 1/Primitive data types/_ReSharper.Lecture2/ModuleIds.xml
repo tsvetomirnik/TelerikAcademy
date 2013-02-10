@@ -1,0 +1,16 @@
+<Modules>
+  <Module PersistentId="11F46107-B0E3-426B-9E4A-E0D26EAF640F" ModuleId="ChooseBestType" />
+  <Module PersistentId="E2332A09-240D-4B69-BD20-D4F7A0EA6464" ModuleId="FloatOrDoubleType" />
+  <Module PersistentId="6F0FA415-92D6-4DE2-B291-123F7A6D6DE6" ModuleId="FloatCompare" />
+  <Module PersistentId="8D22C53E-3944-4129-8FD3-272597091007" ModuleId="HexadecimalValue" />
+  <Module PersistentId="909C4271-7A5C-4FD7-A23A-C5FAFCC5964C" ModuleId="UnicodeChar" />
+  <Module PersistentId="D995DF9D-BFB6-49A0-B399-28A953278547" ModuleId="GenderBoolean" />
+  <Module PersistentId="1F612B25-5E0E-4E17-B0DA-0362EDFC5A8A" ModuleId="ObjectToStringCast" />
+  <Module PersistentId="FADAA269-0991-43CE-BD22-8DA154355145" ModuleId="StringEscaping" />
+  <Module PersistentId="F9185AD4-0D77-4028-A91A-7ED38069AEB7" ModuleId="CopyrightIsoscelesTriangle" />
+  <Module PersistentId="3BEE9D90-3526-43BF-A4F6-EF3BE3A0A629" ModuleId="MarketingFirmRecords" />
+  <Module PersistentId="DC835CBF-82D1-43AD-B89F-EDE8648ECD14" ModuleId="ExchangeIntValues" />
+  <Module PersistentId="C2947805-DE94-4680-B6F1-DACEF12E647F" ModuleId="NullableTypes" />
+  <Module PersistentId="B2AFE14A-4356-4E80-8872-0CE664A744E9" ModuleId="BankAccount" />
+  <Module PersistentId="FEC859B8-8454-4F81-BC23-7F3553D908CE" ModuleId="PrintASCIITable" />
+</Modules>

@@ -1,0 +1,77 @@
+:root{
+	background: #a9a9a9;
+	color: white;
+	font-size: 1em;
+	font-family: Arial, Sans-Serif;
+}
+
+body>header,
+body>footer{
+	width: 100%;
+	text-align: center;
+}
+
+body>header:first-child h1{
+	font-size: 2.4em;
+}
+
+body>header nav ul{
+	margin: 30px 0 20px 0;
+}
+
+body>header nav ul li{
+	margin-bottom: 4px;
+}
+
+body>header nav ul li a{ 
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: white;
+}
+
+body>header nav ul li a:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+body>header nav ul li a.current{ text-decoration: underline; }
+
+section{
+	padding: 10px;
+}
+
+section article{
+	margin-bottom: 26px;
+}
+
+section article header h1{
+	font-size: 1.4em;
+}
+
+section article p{
+	color: black;
+}
+
+section article>p{
+	margin: 22px 0 14px 0;
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+
+section article footer{
+	font-size: 0.7em;
+}
+
+section article footer a{
+	color: black;
+	text-decoration: none;
+}
+section article footer a:hover{
+	text-decoration: underline;
+}
+
+body>footer {
+	color: black;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+}

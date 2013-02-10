@@ -1,0 +1,6 @@
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\bin\Debug\BitExchanges.exe.config
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\bin\Debug\BitExchanges.exe
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\bin\Debug\BitExchanges.pdb
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\obj\Debug\BitExchanges.exe
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\obj\Debug\BitExchanges.pdb
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\BitExchanges\obj\Debug\BitExchanges.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\QuadraticEquation\bin\Debug\QuadraticEquation.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\QuadraticEquation\bin\Debug\QuadraticEquation.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\QuadraticEquation\bin\Debug\QuadraticEquation.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\QuadraticEquation\obj\Debug\QuadraticEquation.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\QuadraticEquation\obj\Debug\QuadraticEquation.pdb

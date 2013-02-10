@@ -1,0 +1,7 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\bin\Debug\SumOfTreeIntegers.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\bin\Debug\SumOfTreeIntegers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\bin\Debug\SumOfTreeIntegers.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\obj\Debug\SumOfTreeIntegers.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\obj\Debug\SumOfTreeIntegers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumOfTreeIntegers\obj\Debug\SumOfTreeIntegers.pdb
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\ConsoleInputOutput\SumOfTreeIntegers\bin\Debug\SumOfTreeIntegers.exe.config

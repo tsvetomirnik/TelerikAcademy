@@ -1,0 +1,4 @@
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\TriangleSurface\bin\Debug\TriangleSurface.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\TriangleSurface\bin\Debug\TriangleSurface.pdb
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\TriangleSurface\obj\x86\Debug\TriangleSurface.exe
+C:\Users\cecko\Documents\Visual Studio 2010\Projects\LeapYear\TriangleSurface\obj\x86\Debug\TriangleSurface.pdb

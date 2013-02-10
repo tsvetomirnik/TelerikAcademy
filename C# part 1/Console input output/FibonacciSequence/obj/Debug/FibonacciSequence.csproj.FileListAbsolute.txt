@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FibonacciSequence\bin\Debug\FibonacciSequence.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FibonacciSequence\bin\Debug\FibonacciSequence.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FibonacciSequence\bin\Debug\FibonacciSequence.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FibonacciSequence\obj\Debug\FibonacciSequence.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FibonacciSequence\obj\Debug\FibonacciSequence.pdb

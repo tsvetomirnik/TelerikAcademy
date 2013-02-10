@@ -1,0 +1,53 @@
+:root{
+	background: #595959;
+	color: #e5e5e5;
+	font-size: 1em;
+	font-family: Calibri;
+}
+
+h1{
+	color: #9a9a9a;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+dl dt{
+	font-style: italic;
+	min-width: 140px;
+	float: left;
+	clear: both;
+}
+
+dl dd {
+	margin-bottom: 14px;
+	float: left;
+}
+
+dl dd a{
+	color: white;
+	text-decoration: none;
+}
+
+dl dd a:hover{ text-decoration: underline; }
+
+.status_text{
+	display: inline-block;
+	background-image: url('../images/status_circle.png');
+	background-repeat: no-repeat;
+	padding-left: 18px;
+}
+
+.warning_status{ color: red; }
+.inactive_status{ color: #e56d23; }
+.faded{ opacity: 0.5; }
+
+
+
+
+
+
+
+
+
+
+

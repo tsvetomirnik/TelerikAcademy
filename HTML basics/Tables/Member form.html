@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Member form</title>
+		<meta charset="utf-8" />
+        <meta name="author" content="Tsvetomir Nikolov"/>
+    </head>
+    <body>
+		<form method="POST" action="submit.php">
+			<label for="fieldName">Member name:</label>
+			<input id="fieldName" name="Name" type="text" required="required"/>
+			<span>* Required field</span><br/>
+			
+			<label for="fieldEmail">Email:</label>
+			<input id="fieldEmail" name="Email" type="email" required="required"/>
+			<span>* Required field</span><br/>
+			
+			<label for="fieldSchool">School:</label>
+			<input id="fieldSchool" name="School" type="text" required="required"/>
+			<span>* Required field</span><br/>
+			<input type="image" alt="Submit" src="images/submit_button.gif" />
+		</form>
+    </body>
+</html>

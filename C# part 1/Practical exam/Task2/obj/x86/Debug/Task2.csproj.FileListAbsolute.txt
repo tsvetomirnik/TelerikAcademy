@@ -1,0 +1,4 @@
+D:\Repository\CSharpCourse\CSharpPracticalExam\Task2\bin\Debug\Task2.exe
+D:\Repository\CSharpCourse\CSharpPracticalExam\Task2\bin\Debug\Task2.pdb
+D:\Repository\CSharpCourse\CSharpPracticalExam\Task2\obj\x86\Debug\Task2.exe
+D:\Repository\CSharpCourse\CSharpPracticalExam\Task2\obj\x86\Debug\Task2.pdb

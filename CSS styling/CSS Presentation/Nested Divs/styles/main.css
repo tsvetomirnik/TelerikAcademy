@@ -1,0 +1,9 @@
+
+
+div{
+	float: left;
+	width: 94%;
+	background: black;
+	border: 2px solid red;
+	border-radius: 100px;
+}

@@ -1,0 +1,5 @@
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\Lecture4\PrintNumberName\bin\Debug\PrintNumberName.exe.config
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\Lecture4\PrintNumberName\bin\Debug\PrintNumberName.exe
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\Lecture4\PrintNumberName\bin\Debug\PrintNumberName.pdb
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\Lecture4\PrintNumberName\obj\Debug\PrintNumberName.exe
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\Lecture4\PrintNumberName\obj\Debug\PrintNumberName.pdb

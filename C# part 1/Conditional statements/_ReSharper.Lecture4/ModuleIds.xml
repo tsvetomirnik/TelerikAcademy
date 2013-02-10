@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="4FE8DD4C-A922-4547-9D3C-331FD914AB02" ModuleId="ExchangeIfGreater" />
+  <Module PersistentId="932EEEF3-498C-40E5-8BE2-472F727F4630" ModuleId="SignOfProduct" />
+  <Module PersistentId="B8706D10-27BD-44BD-8041-A682FBCF920F" ModuleId="BiggestFromTree" />
+  <Module PersistentId="EB315F86-8E27-4AA9-BB85-386021D01150" ModuleId="SortRealNumbers" />
+  <Module PersistentId="F8BCF3E0-76A2-46CF-BAA7-F967247A810F" ModuleId="PrintDigitName" />
+  <Module PersistentId="05D0CACF-9E51-4082-865D-3F648848E98D" ModuleId="QuadraticEquation" />
+  <Module PersistentId="FDAF10AB-7A0E-4B84-8C3C-2A86B844E51F" ModuleId="PrintNumberName" />
+  <Module PersistentId="14AABCF2-3C1B-47E0-9CF1-7F62CE2B7D69" ModuleId="BiggerFrom5Numbers" />
+  <Module PersistentId="3E9C3DC1-E25F-4F44-BA6F-D974D130EA20" ModuleId="GetInputType" />
+  <Module PersistentId="E7B0A75F-BAFB-45EF-8AE4-45C557412C21" ModuleId="BonusScores" />
+</Modules>

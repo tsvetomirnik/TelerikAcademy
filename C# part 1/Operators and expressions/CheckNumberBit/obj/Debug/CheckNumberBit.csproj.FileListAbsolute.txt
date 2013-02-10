@@ -1,0 +1,6 @@
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\bin\Debug\CheckNumberBit.exe.config
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\obj\Debug\CheckNumberBit.csprojResolveAssemblyReference.cache
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\bin\Debug\CheckNumberBit.exe
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\bin\Debug\CheckNumberBit.pdb
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\obj\Debug\CheckNumberBit.exe
+C:\Users\cecko\documents\visual studio 2012\Projects\Lecture3\CheckNumberBit\obj\Debug\CheckNumberBit.pdb

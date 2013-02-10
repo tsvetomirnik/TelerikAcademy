@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumFractionalNumbers\bin\Debug\SumFractionalNumbers.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumFractionalNumbers\bin\Debug\SumFractionalNumbers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumFractionalNumbers\bin\Debug\SumFractionalNumbers.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumFractionalNumbers\obj\Debug\SumFractionalNumbers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumFractionalNumbers\obj\Debug\SumFractionalNumbers.pdb

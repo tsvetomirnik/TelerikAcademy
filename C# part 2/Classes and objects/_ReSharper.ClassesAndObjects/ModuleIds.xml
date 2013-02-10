@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="1F2B99A5-0D5C-4AE0-870F-437640157F24" ModuleId="Workdays" />
+  <Module PersistentId="FD50C3DD-C017-453A-86A6-462492DAF34D" ModuleId="DayOfWeek" />
+  <Module PersistentId="39538934-A42C-4579-A1B8-130095F60D35" ModuleId="LeapYear" />
+  <Module PersistentId="71AC760C-DF94-4E7B-8C66-325EF3F4EDEB" ModuleId="SumStringNumbers" />
+  <Module PersistentId="8C789EB7-FC6C-47D3-9111-3E97E019E39E" ModuleId="TenRandomValues" />
+  <Module PersistentId="8A9A677D-7B25-413F-B129-E989AA1D8EFE" ModuleId="TriangleSurface" />
+</Modules>

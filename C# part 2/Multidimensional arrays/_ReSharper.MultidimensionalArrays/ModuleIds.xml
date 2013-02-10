@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="58C81024-622C-49D9-812D-9EA31995D81F" ModuleId="ArraysLibrary" />
+  <Module PersistentId="F0BC742E-3611-43F2-8664-582F355CEC62" ModuleId="FillMatrix" />
+  <Module PersistentId="DC061BC6-831C-42A6-96A3-8EA1B03F3712" ModuleId="FindMatrixSquare" />
+  <Module PersistentId="B661ADB1-205D-4B52-9184-4AB9E9C8A8BE" ModuleId="LongestSequenceOfEqualStrings" />
+  <Module PersistentId="9E090296-A48A-45A2-9D9F-8BA94D8660E6" ModuleId="BinarySearch" />
+  <Module PersistentId="2AF73B65-2AE5-4C2F-B4FE-1578B0EF809F" ModuleId="StringsSorter" />
+  <Module PersistentId="E728CBE3-7CA4-4BD8-9D3B-529091B5526D" ModuleId="ClassMatrix" />
+</Modules>

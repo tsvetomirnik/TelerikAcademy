@@ -1,0 +1,6 @@
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\bin\Debug\CSharpIntroduction.exe.config
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\bin\Debug\CSharpIntroduction.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\bin\Debug\CSharpIntroduction.pdb
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\obj\Debug\CSharpIntroduction.exe
+c:\users\cecko\documents\visual studio 2012\Projects\CSharpIntroduction\CSharpIntroduction\obj\Debug\CSharpIntroduction.pdb

@@ -1,0 +1,26 @@
+table,
+aside,
+img,
+ul.horisontalList li 
+{ float: left; }
+			
+			
+header { margin-bottom: 30px; }
+header ul li a {
+	font-size: 18px;
+	color: #4490e5;
+	padding: 0 6px 0 0;
+}
+			
+aside p { font-size: 18px; }
+			
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+			
+.clear { clear:both; }
+fieldset { width: 200px; }
+table { border: 1px solid black; }
+aside { margin: 40px 0 0 20px; }

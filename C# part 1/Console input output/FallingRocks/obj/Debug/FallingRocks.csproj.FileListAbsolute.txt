@@ -1,0 +1,8 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FallingRocks\bin\Debug\FallingRocks.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FallingRocks\bin\Debug\FallingRocks.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FallingRocks\bin\Debug\FallingRocks.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FallingRocks\obj\Debug\FallingRocks.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\FallingRocks\obj\Debug\FallingRocks.pdb
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\ConsoleInputOutput\FallingRocks\bin\Debug\FallingRocks.exe.config
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\ConsoleInputOutput\FallingRocks\obj\Debug\FallingRocks.exe
+C:\Users\cecko\Documents\Visual Studio 2012\Projects\ConsoleInputOutput\FallingRocks\obj\Debug\FallingRocks.pdb

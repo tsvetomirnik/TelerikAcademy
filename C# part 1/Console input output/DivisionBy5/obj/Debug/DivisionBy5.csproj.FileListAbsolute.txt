@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\DivisionBy5\bin\Debug\DivisionBy5.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\DivisionBy5\bin\Debug\DivisionBy5.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\DivisionBy5\bin\Debug\DivisionBy5.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\DivisionBy5\obj\Debug\DivisionBy5.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\DivisionBy5\obj\Debug\DivisionBy5.pdb

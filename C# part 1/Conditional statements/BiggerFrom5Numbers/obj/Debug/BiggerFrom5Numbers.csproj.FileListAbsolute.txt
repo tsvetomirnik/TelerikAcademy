@@ -1,0 +1,5 @@
+c:\users\cecko\documents\visual studio 2012\Projects\Lecture4\BiggerFrom5Numbers\bin\Debug\BiggerFrom5Numbers.exe.config
+c:\users\cecko\documents\visual studio 2012\Projects\Lecture4\BiggerFrom5Numbers\bin\Debug\BiggerFrom5Numbers.exe
+c:\users\cecko\documents\visual studio 2012\Projects\Lecture4\BiggerFrom5Numbers\bin\Debug\BiggerFrom5Numbers.pdb
+c:\users\cecko\documents\visual studio 2012\Projects\Lecture4\BiggerFrom5Numbers\obj\Debug\BiggerFrom5Numbers.exe
+c:\users\cecko\documents\visual studio 2012\Projects\Lecture4\BiggerFrom5Numbers\obj\Debug\BiggerFrom5Numbers.pdb

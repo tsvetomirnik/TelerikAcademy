@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumXNumbers\bin\Debug\SumXNumbers.exe.config
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumXNumbers\bin\Debug\SumXNumbers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumXNumbers\bin\Debug\SumXNumbers.pdb
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumXNumbers\obj\Debug\SumXNumbers.exe
+C:\Users\student\Desktop\Exerxises\ConsoleInputOutput\SumXNumbers\obj\Debug\SumXNumbers.pdb

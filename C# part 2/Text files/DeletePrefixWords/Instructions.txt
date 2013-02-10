@@ -1,0 +1,6 @@
+Here are some testsuggestions:
+
+Reload this testwebpage later.
+
+Check and test your Internet testconnection. Restart any testrouter, modem,
+or other network testdevices you maytest be using.

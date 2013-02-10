@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="AF53C41F-E13D-4F29-8698-C226DDCE1302" ModuleId="DecimalToBinary" />
+  <Module PersistentId="678D32EE-671E-45F1-8CE9-BCDD71DB1343" ModuleId="NumeralSystemTransforms" />
+</Modules>

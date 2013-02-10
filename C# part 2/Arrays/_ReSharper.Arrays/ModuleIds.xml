@@ -1,0 +1,18 @@
+<Modules>
+  <Module PersistentId="7C6611FB-E35C-46EC-927E-DA09A87E6F9C" ModuleId="Print Multiplied Integers" />
+  <Module PersistentId="2BCFDC01-CD08-4DC9-8C15-0C50569EB9D2" ModuleId="CompareTwoArrays" />
+  <Module PersistentId="9119987F-5866-43CC-9FC0-4A533BD1E95B" ModuleId="CompareTwoCharArrays" />
+  <Module PersistentId="2E581103-8CB4-4ECE-A0E4-2131ABEDF0AB" ModuleId="MaxSequenceOfEqualElements" />
+  <Module PersistentId="1D5074A6-337A-4C9C-9861-9260CF608740" ModuleId="MaxIncreasingSequence" />
+  <Module PersistentId="4F47DEC1-3BB6-47B7-9D00-D1CE4AA1BE82" ModuleId="ElementsWithMaximalSum" />
+  <Module PersistentId="242739BA-9A99-451E-92EB-FB52869F6C64" ModuleId="SelectionSort" />
+  <Module PersistentId="FC177ADB-D0CA-432F-A205-97F49E4D9C98" ModuleId="MaxSequenceSum" />
+  <Module PersistentId="F129C7D2-5A13-461A-85DD-6A4EBDF5984F" ModuleId="MostFrequentNumber" />
+  <Module PersistentId="ACDC1507-9826-4F2C-B04E-0BB99A3F9EE0" ModuleId="FindSumInSequence" />
+  <Module PersistentId="32D6103B-0824-4AD9-BBBB-23BBA3BDB363" ModuleId="BinarySearch" />
+  <Module PersistentId="8B6686F0-9BD0-4C13-B46E-EE6144BA7459" ModuleId="AlphabetArray" />
+  <Module PersistentId="1537D90B-BDCB-47B3-9CCB-F1AD8EDBC176" ModuleId="MergeSort" />
+  <Module PersistentId="11B0A6AA-B183-49E4-8970-1C4E0B2595D8" ModuleId="QuickSort" />
+  <Module PersistentId="8102E94F-613B-42B6-A8C3-F93BCA9C28F3" ModuleId="SieveOfEratosthenes" />
+  <Module PersistentId="346F1F1B-5EBE-4DF9-AC2A-67A84037497F" ModuleId="PrintAllVariations" />
+</Modules>
