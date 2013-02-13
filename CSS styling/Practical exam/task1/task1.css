@@ -1,0 +1,84 @@
+ol,
+ul {
+  list-style: none;
+}
+body,
+div,
+header,
+nav,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 20px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+aside {
+  margin: 10px 20px;
+}
+aside > ul {
+  background: #8977ff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8977ff), color-stop(1, #d29bff));
+  background: -ms-linear-gradient(bottom, #8977ff, #d29bff);
+  background: -moz-linear-gradient(center bottom, #8977ff 0, #d29bff 100%);
+  background: -o-linear-gradient(#d29bff, #8977ff);
+  width: 185px;
+  border-radius: 9px;
+  padding: 5px 15px;
+  font-size: 22px;
+}
+aside > ul li {
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #9d00ff;
+  border-radius: 0px;
+  padding-left: 16px;
+}
+aside > ul li:hover {
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+}
+aside > ul li:hover ul {
+  display: block;
+}
+aside ul ul {
+  display: none;
+  position: absolute;
+  top: -5px;
+  left: 191px;
+  width: 210px;
+  border-radius: 9px;
+  padding: 5px 15px;
+  background: #b5aaff url('imgs/arrow.png') no-repeat 4px 15px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+  text-align: center;
+}
+aside ul ul li {
+  padding-left: 18px;
+  line-height: 28px;
+  height: 32px;
+}
+aside ul ul li a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 2px 0;
+}
+ul li:last-child {
+  border: none;
+}

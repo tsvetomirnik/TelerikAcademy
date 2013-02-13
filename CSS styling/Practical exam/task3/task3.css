@@ -1,0 +1,146 @@
+ol,
+ul {
+  list-style: none;
+}
+body,
+div,
+header,
+nav,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+  font-size: 16px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  color: #555;
+  padding: 9px 0;
+  text-align: center;
+}
+#wrapper {
+  background: #aaaaaa;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #aaaaaa), color-stop(1, #eeeeee));
+  background: -ms-linear-gradient(bottom, #aaaaaa, #eeeeee);
+  background: -moz-linear-gradient(center bottom, #aaaaaa 0, #eeeeee 100%);
+  background: -o-linear-gradient(#eeeeee, #aaaaaa);
+  border: 1px solid black;
+  border-radius: 14px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 7px 15px;
+}
+.messages-list {
+  display: block;
+  margin-bottom: 2px;
+}
+.messages-list:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.messages-list li {
+  width: 198px;
+  height: 53px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 6px 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.messages-list li.me-item {
+  display: block;
+  float: right;
+  background: #29edff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #c0faff), color-stop(1, #29edff));
+  background: -ms-linear-gradient(bottom, #c0faff, #29edff);
+  background: -moz-linear-gradient(center bottom, #c0faff 0, #29edff 100%);
+  background: -o-linear-gradient(#29edff, #c0faff);
+}
+.messages-list li.me-item:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.messages-list li.me-item .date {
+  float: right;
+}
+.messages-list li.toshko-item {
+  float: left;
+  background: #71ff3d;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #71ff3d), color-stop(1, #ddffd0));
+  background: -ms-linear-gradient(bottom, #71ff3d, #ddffd0);
+  background: -moz-linear-gradient(center bottom, #71ff3d 0, #ddffd0 100%);
+  background: -o-linear-gradient(#ddffd0, #71ff3d);
+}
+.messages-list li.toshko-item span:first-child {
+  display: block;
+  text-align: right;
+}
+.messages-list li span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+.messages-list li p {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.messages-list li .date {
+  font-size: 12px;
+  font-family: Consolas;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  background: #eee;
+  padding: 0 15px;
+  width: 245px;
+  border-radius: 4px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #555;
+}
+button {
+  margin: 0;
+  padding: 0;
+  width: 69px;
+  height: 32px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+  font-size: 18px;
+  background: #ededed;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ababab), color-stop(1, #ededed));
+  background: -ms-linear-gradient(bottom, #ababab, #ededed);
+  background: -moz-linear-gradient(center bottom, #ababab 0, #ededed 100%);
+  background: -o-linear-gradient(#ededed, #ababab);
+}
+button:hover {
+  background: #eee;
+}
