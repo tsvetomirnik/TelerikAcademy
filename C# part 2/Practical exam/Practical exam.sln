@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvadiaNumbers", "ProvadiaNumbers\ProvadiaNumbers.csproj", "{0A6E0904-7EE9-4030-B842-03295C578241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midget", "Midget\Midget.csproj", "{41C5D3B8-5FF9-42B6-9141-ACCA288B1981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllignBoth", "AllignBoth\AllignBoth.csproj", "{97DDA622-D4EC-40F7-B476-1D8EEFE20ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6E0904-7EE9-4030-B842-03295C578241}.Debug|x86.ActiveCfg = Debug|x86
+		{0A6E0904-7EE9-4030-B842-03295C578241}.Debug|x86.Build.0 = Debug|x86
+		{0A6E0904-7EE9-4030-B842-03295C578241}.Release|x86.ActiveCfg = Release|x86
+		{0A6E0904-7EE9-4030-B842-03295C578241}.Release|x86.Build.0 = Release|x86
+		{41C5D3B8-5FF9-42B6-9141-ACCA288B1981}.Debug|x86.ActiveCfg = Debug|x86
+		{41C5D3B8-5FF9-42B6-9141-ACCA288B1981}.Debug|x86.Build.0 = Debug|x86
+		{41C5D3B8-5FF9-42B6-9141-ACCA288B1981}.Release|x86.ActiveCfg = Release|x86
+		{41C5D3B8-5FF9-42B6-9141-ACCA288B1981}.Release|x86.Build.0 = Release|x86
+		{97DDA622-D4EC-40F7-B476-1D8EEFE20ED9}.Debug|x86.ActiveCfg = Debug|x86
+		{97DDA622-D4EC-40F7-B476-1D8EEFE20ED9}.Debug|x86.Build.0 = Debug|x86
+		{97DDA622-D4EC-40F7-B476-1D8EEFE20ED9}.Release|x86.ActiveCfg = Release|x86
+		{97DDA622-D4EC-40F7-B476-1D8EEFE20ED9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
