@@ -1,0 +1,6 @@
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\bin\Debug\MobilePhoneDevice.exe.config
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\obj\Debug\MobilePhoneDevice.csprojResolveAssemblyReference.cache
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\bin\Debug\MobilePhoneDevice.exe
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\bin\Debug\MobilePhoneDevice.pdb
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\obj\Debug\MobilePhoneDevice.exe
+C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\obj\Debug\MobilePhoneDevice.pdb
