@@ -7,7 +7,7 @@ namespace GenericLists
 	/// <summary>
 	/// Initialize new instance of GelenericList class to work with collection of elements
 	/// </summary>
-	class GenericList<T>  where T : IComparable<T>, IComparable
+	class GenericList<T>
 	{
 		protected const byte CapacityStep = 4;
 		private T[] elements;
@@ -77,7 +77,7 @@ namespace GenericLists
 			int position = -1;
 			for (int i = 0; i < currentElementIndex; i++)
 			{
-				if(elements[i].CompareTo(obj) == 0)
+				if(elements[i].Equals(obj))
 				{
 					position = i;
 					break;
@@ -185,17 +185,17 @@ namespace GenericLists
 		/// Returns the min element in the current collection
 		/// </summary>
 		public T Min()
-        {
-            return elements.Min();
-        }
+		{
+			return elements.Min();
+		}
 
 		/// <summary>
 		/// Returns the biggest element in the current collection
 		/// </summary>
         public T Max()
-        {
-            return elements.Max();
-        }
+		{
+			return elements.Max();
+		}
 
 		/// <summary>
 		/// Returns a string representation of current object

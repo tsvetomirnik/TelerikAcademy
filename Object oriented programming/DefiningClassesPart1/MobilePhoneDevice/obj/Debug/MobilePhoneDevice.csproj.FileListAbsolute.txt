@@ -4,3 +4,4 @@ C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\
 C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\bin\Debug\MobilePhoneDevice.pdb
 C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\obj\Debug\MobilePhoneDevice.exe
 C:\Users\cecko\Dropbox\Projects\MobileJokes\MobilePhoneDevice\MobilePhoneDevice\obj\Debug\MobilePhoneDevice.pdb
+D:\Repository\TelerikAcademy\Object oriented programming\DefiningClassesPart1\MobilePhoneDevice\bin\Debug\MobilePhoneDevice.exe.config

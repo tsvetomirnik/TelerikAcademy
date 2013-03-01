@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="2D741D31-C0D6-4A61-9157-684EE946E401" ModuleId="CustomTimer" />
+  <Module PersistentId="227B9E92-87F2-4F11-877B-44C321A377E3" ModuleId="StringBuilderExtender" />
+</Modules>
