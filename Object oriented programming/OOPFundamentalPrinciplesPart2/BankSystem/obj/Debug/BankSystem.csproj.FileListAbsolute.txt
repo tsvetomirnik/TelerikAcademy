@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\bin\Debug\BankSystem.exe.config
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\bin\Debug\BankSystem.exe
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\bin\Debug\BankSystem.pdb
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\obj\Debug\BankSystem.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\obj\Debug\BankSystem.exe
+C:\Users\student\Desktop\OOPPrinciplesPart2\BankSystem\obj\Debug\BankSystem.pdb

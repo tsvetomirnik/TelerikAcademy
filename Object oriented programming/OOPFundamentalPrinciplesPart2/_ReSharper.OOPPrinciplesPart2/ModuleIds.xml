@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="EC17AB9B-85DB-4529-B978-09478E271588" ModuleId="Shapes" />
+  <Module PersistentId="286A3C4E-FBE3-40AF-A654-F96EA1403AAF" ModuleId="BankSystem" />
+  <Module PersistentId="ABEC4BFC-FDE4-44DC-8F2E-F0DA83DAA707" ModuleId="CustomException" />
+</Modules>

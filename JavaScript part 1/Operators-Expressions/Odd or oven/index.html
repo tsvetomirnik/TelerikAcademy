@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Odd or even</title>
+    </head>
+    <body>
+        <input type="number" id="NumberField" required="required"/>
+        <input type="button" id="BtnCheck" value="Check" onclick="addOrEven()"/>
+        <br/>
+        <label id="ResultLabel"></label>
+        
+        <script>            
+            function addOrEven(){
+                var value = document.getElementById("NumberField").value;
+                var resultLabel = document.getElementById("ResultLabel");
+               
+                var resultText = value;
+                if(value % 2 == 0){
+                    resultText += " is even.";
+                }else{
+                    resultText += " is odd.";
+                }
+                
+                resultLabel.innerHTML = resultText;
+            }
+        </script>
+    </body>
+</html>

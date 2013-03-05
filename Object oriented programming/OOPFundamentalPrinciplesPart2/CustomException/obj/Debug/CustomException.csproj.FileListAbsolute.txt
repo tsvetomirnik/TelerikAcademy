@@ -1,0 +1,1 @@
+C:\Users\cecko\Desktop\OOPPrinciplesPart2\OOPPrinciplesPart2\CustomException\bin\Debug\CustomException.exe.config

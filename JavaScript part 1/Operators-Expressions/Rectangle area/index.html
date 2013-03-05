@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rectangle area</title>
+    </head>
+    <body>
+        <h1>Rectangle area calculator</h1>
+        <label for="FieldWidth">Width:</label>
+        <input type="number" id="FieldWidth" required="required"/>
+        <br/>
+        <label for="FieldHeight">Height:</label>
+        <input type="number" id="FieldHeight" required="required"/>
+        <br/>
+        <input type="button" id="BtnCheck" value="Calculate" onclick="checkDeviders(5,7)"/>
+        <br/>
+        <label id="ResultLabel"></label>
+        
+        <script>            
+            function checkDeviders(devider1, devider2){
+                var width = document.getElementById("FieldWidth").value;
+                var height = document.getElementById("FieldHeight").value;
+                var resultLabel = document.getElementById("ResultLabel");
+                resultLabel.innerHTML = "The area of rectange " + width + ":" + height + " is " + width*height +".";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\bin\Debug\Shapes.exe
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\bin\Debug\Shapes.pdb
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\obj\Debug\Shapes.exe
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\obj\Debug\Shapes.pdb
+C:\Users\student\Desktop\OOPPrinciplesPart2\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
