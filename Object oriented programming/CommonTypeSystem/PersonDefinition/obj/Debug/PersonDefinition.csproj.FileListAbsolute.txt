@@ -1,0 +1,6 @@
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\bin\Debug\PersonDefinition.exe.config
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\bin\Debug\PersonDefinition.exe
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\bin\Debug\PersonDefinition.pdb
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\obj\Debug\PersonDefinition.csprojResolveAssemblyReference.cache
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\obj\Debug\PersonDefinition.exe
+D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\PersonDefinition\obj\Debug\PersonDefinition.pdb
