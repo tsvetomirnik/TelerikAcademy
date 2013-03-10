@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Point, circle and rectangle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+        <h1>Check point position</h1>
+        <p>This script checks is current point is inside a specific circle and rectangle at same time.</p>
+
+        <fieldset>
+            <legend>Point</legend>
+            <label for="pointX">X coordinate:</label>
+            <input id="pointX" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="pointY">Y coordinate:</label>
+            <input id="pointY" type="number" min="0" max="1000"/>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Circle</legend>
+            <label for="circleX">Center X coordinate:</label>
+            <input id="circleX" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="circleY">Center Y coordinate:</label>
+            <input id="circleY" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="circleRadius">Radius:</label>
+            <input id="circleRadius" type="number" min="0" max="1000"/>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Rectangle</legend>
+            <label for="rectX">X coordinate:</label>
+            <input id="rectX" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="rectY">Y coordinate:</label>
+            <input id="rectY" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="rectWidth">Width:</label>
+            <input id="rectWidth" type="number" min="0" max="1000"/>
+            <br/>
+            <label for="rectHeight">Height:</label>
+            <input id="rectHeight" type="number" min="0" max="1000"/>
+        </fieldset>
+
+        <input type="submit" value="Check" onclick="checkPoint();"/>
+        <script>      
+            function checkPoint() {
+                var pointX = document.getElementById("pointX").value;
+                var pointY = document.getElementById("pointY").value;
+                var circleX = document.getElementById("circleX").value;
+                var circleY = document.getElementById("circleY").value;
+                var circleRadius = document.getElementById("circleRadius").value;
+                var rectX = document.getElementById("rectX").value;
+                var rectY = document.getElementById("rectY").value;
+                var rectWidth = document.getElementById("rectWidth").value;
+                var rectHight = document.getElementById("rectHeight").value;
+
+                var withinCircle = isWithinCircle(circleX, circleY, circleRadius, pointX, pointY);
+                var withinRectangle = isWithinRectangle(rectX, rectY, rectWidth, rectHight, pointX, pointY);
+                
+                if(withinCircle && withinRectangle) {
+                    alert("The point is inside the circle and the rectanle.");
+                } else if(withinCircle) {
+                    alert("The point is only inside the circle.");
+                } else if (withinRectangle) {
+                    alert("The point is only inside the rectangle.");
+                } else {
+                    alert("The point is outside the shapes.");
+                }
+            }
+        
+            function isWithinCircle(circleX, circleY, circleRadius, pointX, pointY) {
+                var trianleHypotenuse = Math.sqrt(Math.pow(pointX - circleX, 2) + Math.pow(pointY - circleY, 2));
+                return trianleHypotenuse <= circleRadius;
+            }
+
+            function isWithinRectangle(rectX, rectY, rectWidth, rectHight, pointX, pointY) {
+                var width = pointX >= rectX && pointX <= rectX + rectWidth;
+                var height = pointY >= rectY && pointY <= rectY - rectHight;
+                return width && height;
+            }
+        </script>
+    </body>
+</html>

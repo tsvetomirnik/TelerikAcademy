@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get trapezoid area</title>
+    </head>
+    <body>
+        <h1>Get trapezoid area</h1>
+        <label for="a_side">A side leght:</label>
+        <input id="a_side" type="number"/>
+        <br/>
+        <label for="b_side">B side leght:</label>
+        <input id="b_side" type="number"/>
+        <br/>
+        <label for="h_lenght">H leght:</label>
+        <input id="h_lenght" type="number"/>
+        <br/>
+        <input type="submit" value="Calculate area" onclick="getTrapezoidArea();"/>
+        <script>
+            function getTrapezoidArea() {
+                var a = document.getElementById("a_side").value;
+                var b = document.getElementById("b_side").value;
+                var h = document.getElementById("h_lenght").value;
+
+                var area = (a + b) / 2 * h;
+                alert("The trapezoid has area of " + area);
+            }
+        </script>
+    </body>
+</html>

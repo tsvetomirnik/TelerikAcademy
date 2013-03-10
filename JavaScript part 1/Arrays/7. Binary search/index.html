@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Binary search</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Binary search</h1>
+    <p>
+        Write a program that finds the index of given element in a sorted array
+        of integers by using the binary search algorithm (find it in Wikipedia).
+    </p>
+    <script>
+        var array = new Array(4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3);
+
+        document.writeln("Array:");
+        printArray(array);
+
+        var n;
+        do {
+            n = prompt("Insert a number to search for");
+        } while (isNaN(n))
+        
+        array = sort(array);
+        
+        var index = getIndex(array, n);
+        if(index >= 0) {
+            document.writeln(n + " is on index " + index + ".");
+        } else {
+            document.writeln("Element not found.");
+        }
+        
+        function getIndex(numbers, numberToFind)
+        {
+			var startedIndex = 0;
+            var endIndex = numbers.length - 1;
+            while (startedIndex <= endIndex)
+            {
+                var middleIndex = Math.floor((endIndex + startedIndex) / 2);
+                if (numberToFind > numbers[middleIndex]) {
+                    endIndex = middleIndex - 1;
+                } else if (numberToFind < numbers[middleIndex]) {
+                    startedIndex = middleIndex + 1;
+                } else {
+                    return middleIndex;
+                }
+            }
+
+            return -1;
+        }
+
+        function sort(array) {
+            var i, j;
+            for (i = 0; i < array.length; i++) {
+                var maxNumberIndex = i;
+                var maxNumber = array[maxNumberIndex];
+                for (j = i; j < array.length; j++) {
+                    if (maxNumber < array[j]) {
+                        maxNumber = array[j];
+                        maxNumberIndex = j;
+                    }
+                }
+
+                //Swap values
+                array[maxNumberIndex] = array[i];
+                array[i] = maxNumber;
+            }
+
+            return array;
+        }
+        
+        function printArray(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.writeln(array[i]);
+            }
+            document.writeln("<br/>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Maximal increasing sequence</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Maximal increasing sequence</h1>
+    <p>Write a script that finds the maximal increasing sequence in an array. </p>
+    <script>
+        var array = new Array(3, 2, 3, 4, 2, 2, 4);
+        document.writeln("Array: ");
+        printArray(array);
+        printMaxIncreasingSequence(array);
+        
+        function printMaxIncreasingSequence(array) {
+            var i;
+            var longestSequenceEndIndex = 0;
+            var longestSequenceSize = 0;
+            var currentSequnceSize = 1;
+            for (i = 0; i < array.length - 1; i++) {
+                if (array[i] < array[i + 1]){
+                    currentSequnceSize++;
+                    
+                    if (longestSequenceSize < currentSequnceSize) {
+                        longestSequenceSize = currentSequnceSize;
+                        longestSequenceEndIndex = i + 1;
+                    }
+                } else {
+                    currentSequnceSize = 1;
+                }
+            }
+
+            var resultArray = new Array();
+            var sequenceFirstElement = longestSequenceEndIndex - (longestSequenceSize - 1);
+            for (i = 0; i < longestSequenceSize; i++) {
+                resultArray.push(array[sequenceFirstElement + i]);
+            }
+
+            document.writeln("Longest sequence of equal elements is: ");
+            printArray(resultArray);
+        }
+        
+        function printArray(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.writeln(array[i]);
+            }
+            document.writeln("<br/>");
+        }
+    </script>
+</body>
+</html>

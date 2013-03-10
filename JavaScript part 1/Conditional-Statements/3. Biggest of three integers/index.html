@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Biggest integer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Biggest integer</h1>
+    <p>
+        Write a script that finds the biggest of three integers using nested if statements.
+    </p>
+    <label for="value1">First value:</label>
+    <input type="number" id="value1" min="-1000" max="1000"/>
+    <br/>
+    <label for="value2">Second value:</label>
+    <input type="number" id="value2" min="-1000" max="1000"/>
+    <br/>
+    <label for="value3">Third value:</label>
+    <input type="number" id="value3" min="-1000" max="1000"/>
+    <br/>
+    <input type="submit" value="Go" onclick="showBiggestInteger();"/>
+    <script>
+        function showBiggestInteger() {
+            var value1 = document.getElementById("value1").value;
+            var value2 = document.getElementById("value2").value;
+            var value3 = document.getElementById("value3").value;
+
+            var biggest = max(value1, value2, value3);
+            alert("Biggest number is " + biggest);
+        }
+
+        function max(value1, value2, value3) {
+            var max;
+            if(value1 > value2) {
+                if(value1 > value3) {
+                    max = value1;
+                } else {
+                    max = value3;
+                }
+            } else {
+                if (value2 > value3) {
+                    max = value2;
+                } else {
+                    max = value3;
+                }
+            }
+
+            return max;
+        }
+    </script>
+</body>
+</html>

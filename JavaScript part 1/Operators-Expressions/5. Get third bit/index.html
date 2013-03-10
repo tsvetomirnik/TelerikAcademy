@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get third bit</title>
+    </head>
+    <body>
+        <h1>Third bit checker</h1>
+        <label for="FieldNumber">Number:</label>
+        <input type="number" id="FieldNumber" required="required"/>
+        <input type="button" Value="Check" onclick="checkThirdBit()"/>
+        <br/>
+        <label id="ResultLabel"></label>
+        
+        <script>
+            function checkThirdBit(){
+                var number = document.getElementById("FieldNumber").value;
+                var resultLabel = document.getElementById("ResultLabel");
+                
+                if(number == ""){
+                    resultLabel.innerHTML = "This is not a number.";
+                    return;
+                }
+                
+                var mask = 00000000000000000000000000000100;
+                number = number & mask;
+                
+                var bitString;
+                if(number == 0) 
+                    bitString = "Zero";
+                else 
+                    bitString = "One";
+                
+                resultLabel.innerHTML = "Third bit is " + bitString + ".";
+            }
+        </script>
+    </body>
+</html>

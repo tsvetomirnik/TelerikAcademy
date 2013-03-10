@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Product sign</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Product sign</h1>
+    <p>
+        Write a script that shows the sign (+ or -) of the product of three real 
+        numbers without calculating it. Use a sequence of if statements.
+    </p>
+    <label for="value1">First value:</label>
+    <input type="number" id="value1" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="value2">Second value:</label>
+    <input type="number" id="value2" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="value3">Third value:</label>
+    <input type="number" id="value3" step="any" min="-1000" max="1000"/>
+    <br/>
+    <input type="submit" value="Go" onclick="getProductSign();"/>
+    <script>
+        function getProductSign() {
+            var value1 = document.getElementById("value1").value;
+            var value2 = document.getElementById("value2").value;
+            var value3 = document.getElementById("value3").value;
+
+            var sign;
+
+            if(value1 < 0 || value2 < 0 || value3 < 0) {
+               if(value1 < 0 && value2 < 0 && value3 < 0) {
+                   sign = "-";
+               } else if ((value1<0 && value2<0) || (value2<0 && value3<0) || (value1<0 && value3<0)) {
+                   sign = "+";
+               } else {
+                   sign = "-";
+               }
+            } else {
+                sign = "+";
+            }
+
+            alert("Product sign is '" + sign +"'");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Min Max Elements</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Min Max Elements</h1>
+    <p>Write a script that finds the max and min number from a sequence of numbers.</p>
+    <script>
+        var array = new Array(1,4,2,3,4,5,2,1);
+
+        document.writeln("Elements: ");
+        print(array);
+        document.writeln("<br/>");
+        document.writeln("Min element is: " + getMin(array));
+        document.writeln("<br/>");
+        document.writeln("Min element is: " + getMax(array));
+
+        function print(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.writeln(array[i]);
+            }
+        }
+
+        function getMin(array) {
+            var min = array[0];
+            for (var i = 0; i <= array.length; i++) {
+                if (array[i] < min) {
+                    min = array[i];
+                }
+            }
+
+            return min;
+        }
+
+        function getMax(array) {
+            var max = array[0];
+            for (var i = 0; i <= array.length; i++) {
+                if (array[i] > max) {
+                    max = array[i];
+                }
+            }
+
+            return max;
+        }
+    </script>
+</body>
+</html>

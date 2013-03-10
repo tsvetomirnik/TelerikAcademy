@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Initialize array</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Initialize array</h1>
+    <p>Write a script that compares two char arrays lexicographically (letter by letter).</p>
+    <script>
+        var array1 = new Array('a', 'b', 'c', 'd');
+        var array2 = new Array('a', 'b', 'c', 'e');
+
+        var compareIndex = compare(array1, array2);
+
+        document.writeln("Array1: ");
+        print(array1);
+
+        document.writeln("<br/>");
+
+        document.writeln("Array2: ");
+        print(array2);
+
+        document.writeln("<br/>");
+
+        if (compareIndex == -1)
+            document.write("Array1 is first.");
+        else if (compareIndex == 1)
+            document.write("Array2 is first.");
+        else
+            document.write("Array1 and Array2 are equals.");
+
+        function print(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.writeln(array[i]);
+            }
+        }
+
+        function compare(array1, array2) {
+
+            var minLength = Math.min(array1.length, array2.length);
+            for (var i = 0; i < minLength; i++) {
+                if(array1[i] != array2[i]){
+                    if (array1[i] > array2)
+                        return -1;
+                    else
+                        return 1;
+                }
+            }
+
+            return 0;
+        }
+        
+    </script>
+</body>
+</html>

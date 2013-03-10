@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Not Divisible Numbers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Not Divisible Numbers</h1>
+    <p>
+        Write a script that prints all the numbers from 1 to N, that are not 
+        divisible by 3 and 7 at the same time
+    </p>
+    <script>
+        var n = prompt("Insert n:");
+
+        for (var i = 1; i <= n; i++) {
+            if(i%3 == 0 && i%7 == 0)
+                document.writeln(i);
+        }
+    </script>
+</body>
+</html>

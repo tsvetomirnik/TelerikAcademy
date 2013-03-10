@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Quadratic equation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Quadratic equation</h1>
+    <p>Equations format: a*x2 + b*x + c = 0, where:</p>
+    <label for="valueA">a=</label>
+    <input type="number" id="valueA" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="valueB">b=</label>
+    <input type="number" id="valueB" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="valueC">c=</label>
+    <input type="number" id="valueC" step="any" min="-1000" max="1000"/>
+    <br/>
+    <input type="submit" value="Solve" onclick="solve();"/>
+    <script>
+        function solve() {
+            var a = document.getElementById("valueA").value;
+            var b = document.getElementById("valueB").value;
+            var c = document.getElementById("valueC").value;
+            
+            var result = solveEquation(a, b, c);
+            alert(result);
+        }
+
+        function solveEquation(a, b, c)
+        {
+		    var result;
+            if (a != 0) {
+                var discriminant = (b*b) - (4*a*c);
+                if (discriminant > 0) {
+                    var root1 = (-b + discriminant)/2*a;
+                    var root2 = (-b - discriminant)/2*a;
+                    result =  root1 + ", " + root2;
+                } else if (discriminant < 0) {
+                    result = "No real roots";
+                }
+                else {
+                    result = (-b / (2 * a)).toString();
+                }
+            }
+            else {
+                if (b == 0) {
+                    result = c == 0 ? "Every x" : "No real roots";
+                }
+                else {
+                    result = (-c / b).toString();
+                }
+            }
+
+            return result;
+        }
+    </script>
+</body>
+</html>

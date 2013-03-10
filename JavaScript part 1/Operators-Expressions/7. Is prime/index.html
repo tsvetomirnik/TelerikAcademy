@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Is number prime</title>
+    </head>
+    <body>
+        <script>
+            var number = prompt("Insert a number:");
+            alert(isPrime(number)? "Its prime." : "Its not prime.");
+            
+            function isPrime(number){
+                var factor = Math.floor(number / 2);
+                for (i = 2; i <= factor; i++)
+                {
+                    if ((number % i) == 0)
+                        return false;
+                }
+                
+                return true;
+            }
+        </script>
+    </body>
+</html>

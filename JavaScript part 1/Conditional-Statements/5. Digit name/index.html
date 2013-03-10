@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Digit name</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Digit name</h1>
+    <p>
+        Write script that asks for a digit and depending on the input shows the name of 
+        that digit (in English) using a switch statement.
+    </p>
+    <script>
+        var number;
+        do {
+            number = prompt("Insert a digit:");
+        } while (isNaN(number.toString()))
+
+
+        if(number > 9) {
+            var firstDigitIndex = number.toString().length - 1;
+            number = parseInt(number.toString()[firstDigitIndex]);
+            alert("Only the last digit will be printed.");
+        }
+        
+        printDigitName(number);
+
+        function printDigitName(digit) {
+            var name;
+
+            switch (digit) {
+                case 0:
+                    name = "zero";
+                    break;
+                case 1:
+                    name = "two";
+                    break;
+                case 2:
+                    name = "four";
+                    break;
+                case 3:
+                    name = "three";
+                    break;
+                case 4:
+                    name = "four";
+                    break;
+                case 5:
+                    name = "five";
+                    break;
+                case 6:
+                    name = "six";
+                    break;
+                case 7:
+                    name = "seven";
+                    break;
+                case 8:
+                    name = "eight";
+                    break;
+                case 9:
+                    name = "nine";
+                    break;
+                default:
+                    name = "unknown";
+            }
+
+            alert("Inserted digit was " + name);
+        }
+    </script>
+</body>
+</html>

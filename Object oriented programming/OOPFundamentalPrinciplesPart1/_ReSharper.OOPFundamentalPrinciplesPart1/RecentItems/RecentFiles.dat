@@ -7,11 +7,17 @@
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Dog.cs" caret="88" fromTop="4" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Frog.cs" caret="109" fromTop="4" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Cat.cs" caret="48" fromTop="2" />
-    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:Program.cs" caret="671" fromTop="22" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Animal.cs" caret="722" fromTop="26" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:ISound.cs" caret="0" fromTop="0" />
     <File id="51177008-B088-40C6-B055-D07330D393FA/d:Items/f:Worker.cs" caret="0" fromTop="0" />
-    <File id="51177008-B088-40C6-B055-D07330D393FA/d:Items/f:Human.cs" caret="49" fromTop="2" />
+    <File id="51177008-B088-40C6-B055-D07330D393FA/d:Items/f:Human.cs" caret="278" fromTop="3" />
+    <File id="9A307A59-FE44-427F-AFB9-237D273D5B31/f:Task.txt" caret="542" fromTop="9" />
+    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:Task.txt" caret="521" fromTop="7" />
+    <File id="51177008-B088-40C6-B055-D07330D393FA/f:Workers.cs" caret="0" fromTop="0" />
+    <File id="51177008-B088-40C6-B055-D07330D393FA/f:Task.txt" caret="548" fromTop="7" />
+    <File id="9A307A59-FE44-427F-AFB9-237D273D5B31/f:App.config" caret="0" fromTop="0" />
+    <File id="9A307A59-FE44-427F-AFB9-237D273D5B31/f:School.cs" caret="0" fromTop="0" />
+    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:AnimalsZoo.cs" caret="674" fromTop="22" />
   </RecentFiles>
   <RecentEdits>
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Gender.cs" caret="83" fromTop="5" />
@@ -22,6 +28,9 @@
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Kitten.cs" caret="91" fromTop="4" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Frog.cs" caret="109" fromTop="4" />
     <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/d:Items/f:Animal.cs" caret="957" fromTop="19" />
-    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:Program.cs" caret="671" fromTop="22" />
+    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:AnimalsZoo.cs" caret="674" fromTop="22" />
+    <File id="9A307A59-FE44-427F-AFB9-237D273D5B31/f:Task.txt" caret="395" fromTop="6" />
+    <File id="9C10F0B7-3A45-4DEF-A34C-C8302E34E5B7/f:Task.txt" caret="465" fromTop="7" />
+    <File id="51177008-B088-40C6-B055-D07330D393FA/f:Task.txt" caret="550" fromTop="7" />
   </RecentEdits>
 </RecentFiles>

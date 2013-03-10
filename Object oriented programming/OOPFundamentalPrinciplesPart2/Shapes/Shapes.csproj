@@ -45,7 +45,7 @@
     <Compile Include="Items\Rectangle.cs" />
     <Compile Include="Items\ShapeBase.cs" />
     <Compile Include="Items\Triangle.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Shapers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestShapes.cs" />
   </ItemGroup>

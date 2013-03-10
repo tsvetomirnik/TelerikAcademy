@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Sort three numbers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Sort three numbers</h1>
+    <p>
+        Sort 3 real values in descending order using nested if statements.
+    </p>
+    <label for="value1">First value:</label>
+    <input type="number" id="value1" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="value2">Second value:</label>
+    <input type="number" id="value2" step="any" min="-1000" max="1000"/>
+    <br/>
+    <label for="value3">Third value:</label>
+    <input type="number" id="value3" step="any" min="-1000" max="1000"/>
+    <br/>
+    <input type="submit" value="Go" onclick="sortValues();"/>
+    <script>
+        function sortValues() {
+            var value1 = document.getElementById("value1").value;
+            var value2 = document.getElementById("value2").value;
+            var value3 = document.getElementById("value3").value;
+
+            var COMMA_STR = ", ";
+            var sortedStr = "";
+            if(value1 > value2 && value1 > value3) {
+                sortedStr += value1 + COMMA_STR;
+                if(value2 > value3) {
+                    sortedStr += value2 + COMMA_STR + value3;
+                } else {
+                    sortedStr += value3 + COMMA_STR + value2;
+                }
+            } else if (value2 > value1 && value2 > value3) {
+                sortedStr += value2 + COMMA_STR;
+                if (value1 > value3) {
+                    sortedStr += value1 + COMMA_STR + value3;
+                } else {
+                    sortedStr += value3 + COMMA_STR + value1;
+                }
+            } else {
+                sortedStr += value3 + COMMA_STR;
+                if (value1 > value2) {
+                    sortedStr += value1 + COMMA_STR + value2;
+                } else {
+                    sortedStr += value2 + COMMA_STR + value1;
+                }
+            }
+
+            alert("Deiscending sorted values: " + sortedStr);
+        }
+    </script>
+</body>
+</html>

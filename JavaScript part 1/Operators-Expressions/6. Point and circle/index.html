@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Is point within circle</title>
+    </head>
+    <body>
+        <script>
+            checkPoint();
+            
+            function checkPoint(){
+                var pointX = prompt("Point X coordinate:");
+                var pointY = prompt("Point Y coordinate:");
+                var circleRadius = prompt("Circle radius:");
+                
+                var isInside = isWithinZeroCircle(pointX, pointY, circleRadius);
+                alert(isInside?"The points is inside the circle." : "The points is outsize the circle.");
+            }
+    
+            function isWithinZeroCircle(x, y, circleRadius)
+            {
+                var trianleHypotenuse = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+                return trianleHypotenuse <= circleRadius;
+            }
+        </script>
+    </body>
+</html>

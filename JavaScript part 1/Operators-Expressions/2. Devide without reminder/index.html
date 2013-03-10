@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devide without reminder</title>
+    </head>
+    <body>
+        <input type="number" id="NumberField" required="required"/>
+        <input type="button" id="BtnCheck" value="Check" onclick="checkDeviders(5,7)"/>
+        <br/>
+        <label id="ResultLabel"></label>
+        
+        <script>            
+            function checkDeviders(devider1, devider2){
+                var value = document.getElementById("NumberField").value;
+                var resultLabel = document.getElementById("ResultLabel");
+                
+                var resultText = value;
+                if(value%devider1 == 0 && value%devider2 == 0){
+                    resultText += " can";
+                }
+                else{
+                    resultText += " cannot";
+                }
+                
+                resultText += " be devided by " + devider1 + " and " + devider2 + " at same time without reminder.";
+                resultLabel.innerHTML = resultText;
+            }
+        </script>
+    </body>
+</html>

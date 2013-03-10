@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Most frequent number</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Most frequent number</h1>
+    <p>Write a program that finds the most frequent number in an array. </p>
+    <script>
+        var array = new Array(4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3);
+
+        document.writeln("Array:");
+        printArray(array);
+
+        array = sort(array);
+        
+        var mostResentNumberIndex = getMostFrequentNumber(array);
+        if (mostResentNumberIndex > 0) {
+            document.writeln("Most frequent number is " + array[mostResentNumberIndex]);
+        }
+        else {
+            document.writeln("Every number is contained only once.");
+        }
+        
+        function sort(array) {
+            var i, j;
+            for (i = 0; i < array.length; i++) {
+                var maxNumberIndex = i;
+                var maxNumber = array[maxNumberIndex];
+                for (j = i; j < array.length; j++) {
+                    if (maxNumber < array[j]) {
+                        maxNumber = array[j];
+                        maxNumberIndex = j;
+                    }
+                }
+
+                //Swap values
+                array[maxNumberIndex] = array[i];
+                array[i] = maxNumber;
+            }
+
+            return array;
+        }
+
+        function getMostFrequentNumber(array) {
+            var i;
+            var longestSequenceEndIndex = 0;
+            var longestSequenceSize = 0;
+            var currentSequnceSize = 1;
+            for (i = 0; i < array.length - 1; i++) {
+                if (array[i] == array[i + 1]) {
+					currentSequnceSize++;
+
+					if (longestSequenceSize < currentSequnceSize) {
+						longestSequenceSize = currentSequnceSize;
+						longestSequenceEndIndex = i + 1;
+                    }
+                } else {
+                    currentSequnceSize = 1;
+                }
+            }
+
+            if (longestSequenceSize < 2) {
+                return -1;
+            }
+
+            return longestSequenceEndIndex - (longestSequenceSize - 1);
+        }
+        
+        function printArray(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.writeln(array[i]);
+            }
+            document.writeln("<br/>");
+        }
+    </script>
+</body>
+</html>

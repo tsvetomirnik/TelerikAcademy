@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Is third digit</title>
+    </head>
+    <body>
+        <h1>Third digit checker</h1>
+        <p>Try to guess the third digit</p>
+        <label for="FieldGuess">Guess:</label>
+        <input type="number" id="FieldGuess" min="0" max="9" required="required"/>
+        <br/>
+        <input type="button" id="BtnCheck" value="Calculate" onclick="checkNumber()"/>
+        <br/>
+        <label id="ResultLabel"></label>
+        
+        <script>
+            var randomNumber;
+            SetRandNumber();
+            
+            function SetRandNumber(){
+                randomNumber = Math.floor(Math.random()*999999);
+            }
+            
+            function checkNumber(){
+                var number = document.getElementById("FieldGuess").value;
+                var resultLabel = document.getElementById("ResultLabel");
+                
+                if(number == ""){
+                    resultLabel.innerHTML = "This is not a number.";
+                    return;
+                }
+                
+                if(number.toString().length > 1){
+                    resultLabel.innerHTML = "This is not a digit";
+                    return;
+                }
+                
+                //Checks the thid digit
+                if(randomNumber.toString().charAt(3) == number)
+                {
+                    resultLabel.innerHTML = "Nice guess! " + number + " is the third number. Try again.";
+                    SetRandNumber();
+                }else{
+                    resultLabel.innerHTML = number + " is not the third number.";
+                }
+            }
+        </script>
+    </body>
+</html>

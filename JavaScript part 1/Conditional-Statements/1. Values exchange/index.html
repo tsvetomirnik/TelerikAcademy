@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Values exchanger</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Values exchanger</h1>
+    <p>
+        Write an if statement that examines two integer variables and exchanges their values if the 
+        first one is greater than the second one.
+    </p>
+    <label for="value1">First value:</label>
+    <input type="number" id="value1" min="-1000" max="1000"/>
+    <br/>
+    <label for="value2">Second value:</label>
+    <input type="number" id="value2" min="-1000" max="1000"/>
+    <input type="submit" value="Go" onclick="checkAndExchange();"/>
+    <script>
+        function checkAndExchange() {
+            var value1 = document.getElementById("value1").value;
+            var value2 = document.getElementById("value2").value;
+            
+            console.log("Before check:");
+            console.log("value1="+value1);
+            console.log("value2=" + value2);
+
+            if(value1 > value2) {
+                var exchangeHolder = value1;
+                value1 = value2;
+                value2 = exchangeHolder;
+                alert("Exchanged");
+            }
+
+            console.log("After check:");
+            console.log("value1=" + value1);
+            console.log("value2=" + value2);
+        }
+    </script>
+</body>
+</html>

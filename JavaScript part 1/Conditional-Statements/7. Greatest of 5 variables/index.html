@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Quadratic equation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+        <script>
+            var desiredNumberCount = 5;
+            var numbers = new Array();
+            alert("Insert " + desiredNumberCount + " numbers");
+            do {
+                var n = prompt("Insert a number");
+                if(!isNaN(n)) {
+                    numbers.push(n);
+                }
+            } while (numbers.length != desiredNumberCount)
+
+            var maxNumber = getMax(numbers);
+            alert("Biggest number is " + maxNumber);
+
+            function getMax(numbers){
+                var max = numbers[0];
+                for(n in numbers) {
+                    if(max < n) {
+                        max = n;
+                    }
+                }
+
+                return max;
+            }
+        </script>
+    </body>
+</html>

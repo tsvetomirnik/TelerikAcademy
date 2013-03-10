@@ -51,7 +51,7 @@
     <Compile Include="Items\IndividualCustomer.cs" />
     <Compile Include="Items\LoanAccount.cs" />
     <Compile Include="Items\MortgageAccount.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BankSystemUsage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Maximal element sequence</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Maximal element sequence</h1>
+    <p>Write a script that finds the maximal sequence of equal elements in an array.</p>
+    <script>
+        var array = new Array(2, 1, 1, 2, 3, 3, 2, 2, 2, 1);
+        printMaxSequence(array);
+        
+        function printMaxSequence(array) {
+            var i;
+            var longestSequenceEndIndex = 0;
+            var longestSequenceSize = 0;
+            var currentSequnceSize = 1;
+            for (i = 0; i < array.length - 1; i++) {
+                if (array[i] == array[i + 1]) {
+                    currentSequnceSize++;
+                    
+                    if (longestSequenceSize < currentSequnceSize) {
+                        longestSequenceSize = currentSequnceSize;
+                        longestSequenceEndIndex = i + 1;
+                    }
+                } else {
+                    currentSequnceSize = 1;
+                }
+            }
+            
+            var resultStr = "";
+            var sequenceFirstElement = longestSequenceEndIndex - (longestSequenceSize - 1);
+            for (i = 0; i < longestSequenceSize; i++) {
+                resultStr += array[sequenceFirstElement + i] + " ";
+            }
+            alert("Longest sequence of equal elements is: " + resultStr);
+        }
+    </script>
+</body>
+</html>

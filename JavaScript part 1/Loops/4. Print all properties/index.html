@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Print all properties</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Print all properties</h1>
+    <p>
+        Write a script that finds the lexicographically smallest and largest 
+        property in document, window and navigator objects.
+    </p>
+    <script>
+        //Get largest
+        var largest = "";
+        for (var property in document) {
+            if (property.length > largest.length) {
+                largest = property;
+            }
+        }
+
+        for (var property in window) {
+            if (property.length > largest.length) {
+                largest = property;
+            }
+        }
+
+        for (var property in navigator) {
+            if (property.length > largest.length) {
+                largest = property;
+            }
+        }
+
+        document.writeln("The largest property is <b>" + largest + "</b>.");
+        document.writeln("<br/>");
+
+        //Get shortest
+        var shortest = largest;
+        for (var property in document) {
+            if (property.length < shortest.length) {
+                shortest = property;
+            }
+        }
+
+        for (var property in window) {
+            if (property.length < shortest.length) {
+                shortest = property;
+            }
+        }
+
+        for (var property in navigator) {
+            if (property.length < shortest.length) {
+                shortest = property;
+            }
+        }
+
+        document.writeln("The shortest property is <b>" + shortest + "</b>.");
+    </script>
+</body>
+</html>
