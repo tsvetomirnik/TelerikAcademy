@@ -11,50 +11,20 @@
         property in document, window and navigator objects.
     </p>
     <script>
-        //Get largest
-        var largest = "";
-        for (var property in document) {
-            if (property.length > largest.length) {
-                largest = property;
-            }
-        }
-
-        for (var property in window) {
-            if (property.length > largest.length) {
-                largest = property;
-            }
-        }
-
-        for (var property in navigator) {
-            if (property.length > largest.length) {
-                largest = property;
-            }
-        }
-
-        document.writeln("The largest property is <b>" + largest + "</b>.");
+    	var array = new Array(document, window, navigator);
+		
+	var properties = new Array();
+	for(var i=0; i < array.length; i++){
+		for(var property in array[i]){
+			properties.push(property);
+		}
+	}
+		
+	properties.sort();
+		 
+	document.writeln("First property in lexicographical order is <b>" + properties[0] + "</b>.");
         document.writeln("<br/>");
-
-        //Get shortest
-        var shortest = largest;
-        for (var property in document) {
-            if (property.length < shortest.length) {
-                shortest = property;
-            }
-        }
-
-        for (var property in window) {
-            if (property.length < shortest.length) {
-                shortest = property;
-            }
-        }
-
-        for (var property in navigator) {
-            if (property.length < shortest.length) {
-                shortest = property;
-            }
-        }
-
-        document.writeln("The shortest property is <b>" + shortest + "</b>.");
+	document.writeln("Last property in lexicographical order is <b>" + properties[properties.length - 1] + "</b>.");
     </script>
 </body>
 </html>
