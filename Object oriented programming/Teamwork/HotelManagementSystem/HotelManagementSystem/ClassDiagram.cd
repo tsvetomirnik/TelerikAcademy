@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HotelManagementSystem.Components.ConsoleManager" Collapsed="true">
+    <Position X="21.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAABIAMAACAAASAEAAAAgAAAAAgAAABAAA=</HashCode>
+      <FileName>Components\ConsoleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.TableItem" Collapsed="true">
+    <Position X="22" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\TableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.ClientsManagementMenu" Collapsed="true">
+    <Position X="23.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAQAAAAAAAAAAQBACAABAEAAAAAAASAABAAAA=</HashCode>
+      <FileName>Components\Menues\ClientsManagementMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.ConsoleMenuBase" Collapsed="true">
+    <Position X="24.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAEIAFABAAAQAAAAAAAEAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Components\Menues\ConsoleMenuBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.HotelInfoManagementMenu" Collapsed="true">
+    <Position X="26.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAQAAAAAAABAAQAAAAAAAEAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Components\Menues\HotelInfoManagementMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.ItemsManagementMenu" Collapsed="true">
+    <Position X="28.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAQAACAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Menues\ItemsManagementMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.MainMenu" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQAAQAAAAAAAQAIAAAAAEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Components\Menues\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.RoomsManagementMenu" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAQAQAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Menues\RoomsManagementMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Components.Menues.SingleClientManagementMenu" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAAAABAAAQEAAAABAEBAAAhAAAAAAAAAA=</HashCode>
+      <FileName>Components\Menues\SingleClientManagementMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.HotelManagementSystem" Collapsed="true">
+    <Position X="19.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAQAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotelManagementSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.ProgramManager" Collapsed="true">
+    <Position X="19.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ProgramManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.StringUtility" Collapsed="true">
+    <Position X="25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.BathItems" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAIAAAAIAQAAAAAAAAAAAAAgAAAQCA=</HashCode>
+      <FileName>Items\BathItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Client" Collapsed="true">
+    <Position X="19.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAEABCAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAIg=</HashCode>
+      <FileName>Items\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.ExpirableItemBase" Collapsed="true">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Items\ExpirableItemBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Food" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAIAQAAAAAAACAAAAAgAAAACA=</HashCode>
+      <FileName>Items\Food.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Furniture" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Furniture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Hotel" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAQCAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Item" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.RentableBase" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Items\RentableBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelManagementSystem.Items.ReplaceableItemBase" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Items\ReplaceableItemBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelManagementSystem.Items.Room" Collapsed="true">
+    <Position X="10.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggCAAIAEAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Items.SleepingFurniture" Collapsed="true">
+    <Position X="15.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\SleepingFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Properties.Resources" Collapsed="true">
+    <Position X="25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAABEAAAAQAQAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Storage.GenericStorage&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Storage\GenericStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Storage.StorageException" Collapsed="true">
+    <Position X="23.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Storage\StorageException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Storage.StorageManager" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAACAAAAACA=</HashCode>
+      <FileName>Storage\StorageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelManagementSystem.Storage.XmlStorageManager" Collapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAABAAAAAAAAAAAAAAgAAEAAAAAAAA=</HashCode>
+      <FileName>Storage\XmlStorageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="HotelManagementSystem.Items.RoomNumber" Collapsed="true">
+    <Position X="12.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAgEAEAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\RoomNumber.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="HotelManagementSystem.Items.IExpirable" Collapsed="true">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Items\IExpirable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HotelManagementSystem.Items.IRentable" Collapsed="true">
+    <Position X="13.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Items\IRentable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HotelManagementSystem.Items.IReplaceable" Collapsed="true">
+    <Position X="15.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Items\IReplaceable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HotelManagementSystem.Items.FurnitureQuality" Collapsed="true">
+    <Position X="17.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAYIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\FurnitureQuality.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

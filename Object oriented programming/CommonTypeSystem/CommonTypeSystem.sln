@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDefinition", "Studen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDefinition", "PersonDefinition\PersonDefinition.csproj", "{913AC037-33BA-4E07-9185-17ED79867685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitArray", "BitArray\BitArray.csproj", "{6D9D95BD-3823-4519-91A5-229F6ED48820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{913AC037-33BA-4E07-9185-17ED79867685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913AC037-33BA-4E07-9185-17ED79867685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913AC037-33BA-4E07-9185-17ED79867685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9D95BD-3823-4519-91A5-229F6ED48820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9D95BD-3823-4519-91A5-229F6ED48820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9D95BD-3823-4519-91A5-229F6ED48820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9D95BD-3823-4519-91A5-229F6ED48820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

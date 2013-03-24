@@ -1,6 +1,0 @@
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\bin\Debug\StudentDefinition.exe.config
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\bin\Debug\StudentDefinition.exe
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\bin\Debug\StudentDefinition.pdb
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\obj\Debug\StudentDefinition.csprojResolveAssemblyReference.cache
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\obj\Debug\StudentDefinition.exe
-D:\Repository\TelerikAcademy\Object oriented programming\CommonTypeSystem\StudentDefinition\obj\Debug\StudentDefinition.pdb

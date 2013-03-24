@@ -1,0 +1,41 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:ConsoleInterface.cs" caret="0" fromTop="0" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:PlayerRacket.cs" caret="222" fromTop="10" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:ConsoleRenderer.cs" caret="1739" fromTop="18" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:UnpassableBlock.cs" caret="258" fromTop="11" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:IndestructibleBlock.cs" caret="463" fromTop="17" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Engine.cs" caret="2977" fromTop="25" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:RandomGenerator.cs" caret="0" fromTop="0" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:MovingObject.cs" caret="410" fromTop="15" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Block.cs" caret="152" fromTop="4" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:GameObject.cs" caret="178" fromTop="4" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Ball.cs" caret="0" fromTop="0" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:MeteoriteBall.cs" caret="92" fromTop="4" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:ExplodingBlock.cs" caret="384" fromTop="7" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:TrailObject.cs" caret="457" fromTop="16" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Shockwave.cs" caret="548" fromTop="9" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Racket.cs" caret="1285" fromTop="23" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:AcademyPopcornMain.cs" caret="1814" fromTop="23" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:UnstoppableBall.cs" caret="785" fromTop="24" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Gift.cs" caret="1100" fromTop="14" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:ConsoleRenderer.cs" caret="379" fromTop="14" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Engine.cs" caret="1945" fromTop="5" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:PlayerRacket.cs" caret="294" fromTop="11" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Ball.cs" caret="341" fromTop="12" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:MeteoriteBall.cs" caret="397" fromTop="17" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:IndestructibleBlock.cs" caret="574" fromTop="21" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:UnpassableBlock.cs" caret="249" fromTop="11" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Block.cs" caret="366" fromTop="11" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:RandomGenerator.cs" caret="331" fromTop="10" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:ExplodingBlock.cs" caret="584" fromTop="18" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:TrailObject.cs" caret="457" fromTop="16" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Racket.cs" caret="1285" fromTop="23" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Shockwave.cs" caret="239" fromTop="6" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:AcademyPopcornMain.cs" caret="1814" fromTop="23" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:UnstoppableBall.cs" caret="784" fromTop="24" />
+    <File id="D50F4786-9751-4526-8D31-BB09B73CCC59/f:Gift.cs" caret="1628" fromTop="32" />
+  </RecentEdits>
+</RecentFiles>

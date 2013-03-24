@@ -1,0 +1,5 @@
+C:\Users\cecko\Desktop\DocumentSystem-Skeleton\bin\Debug\DocumentSystem.exe
+C:\Users\cecko\Desktop\DocumentSystem-Skeleton\bin\Debug\DocumentSystem.pdb
+C:\Users\cecko\Desktop\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.csprojResolveAssemblyReference.cache
+C:\Users\cecko\Desktop\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.exe
+C:\Users\cecko\Desktop\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.pdb
