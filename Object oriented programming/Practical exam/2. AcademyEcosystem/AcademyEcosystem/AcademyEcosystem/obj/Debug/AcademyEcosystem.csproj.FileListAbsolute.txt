@@ -1,0 +1,14 @@
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.csprojResolveAssemblyReference.cache
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.pdb
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb
+C:\Users\cecko\Desktop\2. AcademyEcosystem\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Users\cecko\Desktop\2. AcademyEcosystem\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe
+C:\Users\cecko\Desktop\2. AcademyEcosystem\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.pdb
+C:\Users\cecko\Desktop\2. AcademyEcosystem\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Users\cecko\Desktop\2. AcademyEcosystem\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb

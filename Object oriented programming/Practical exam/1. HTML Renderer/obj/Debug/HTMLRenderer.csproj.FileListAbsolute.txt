@@ -1,0 +1,4 @@
+C:\Users\cecko\Desktop\1. HTML Renderer\bin\Debug\HTMLRenderer.exe
+C:\Users\cecko\Desktop\1. HTML Renderer\bin\Debug\HTMLRenderer.pdb
+C:\Users\cecko\Desktop\1. HTML Renderer\obj\Debug\HTMLRenderer.exe
+C:\Users\cecko\Desktop\1. HTML Renderer\obj\Debug\HTMLRenderer.pdb
