@@ -1,0 +1,66 @@
+﻿<!--
+	Write a Function that returns the index of the first element in array that 
+	is bigger than its neighbors, or -1, if there’s no such element.
+
+	Use the function from the previous exercise.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First bigger number than its neighbors</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>First bigger number than its neighbors</h1>
+    <p>
+        Write a Function that returns the index of the first element in array 
+        that is bigger than its neighbors, or -1, if there’s no such element.
+    </p>
+    <script>
+        document.write("Tests passed: " + test());
+
+        function getFirstBiggerThanNeighbours(array)
+        {
+			var firstBiggerThanNeighbours = -1;
+            for (var i = 0; i < array.length; i++)
+            {
+                if (isBiggerThanNeighbours(array, i)) {
+                    firstBiggerThanNeighbours = i;
+                    break;
+                }
+            }
+
+            return firstBiggerThanNeighbours;
+        }
+
+        function isBiggerThanNeighbours(array, index) {
+			if (index < 0 || index > array.length){
+			    return false;
+            }
+
+            var isBiggerThanLeftElement = false;
+            if (index > 0) {
+                isBiggerThanLeftElement = array[index] > array[index - 1];
+            }
+
+            var isBiggerThanRightElement = false;
+            if (index < array.length - 1) {
+                isBiggerThanRightElement = array[index] > array[index + 1];
+            }
+
+            return isBiggerThanLeftElement && isBiggerThanRightElement;
+        }
+        
+        //Test function
+        function test() {
+            var isCorrect = true;
+            isCorrect = isCorrect && getFirstBiggerThanNeighbours([]) == -1;
+            isCorrect = isCorrect && getFirstBiggerThanNeighbours([1,2,3]) == -1;
+            isCorrect = isCorrect && getFirstBiggerThanNeighbours([1,2,1]) == 1;
+            isCorrect = isCorrect && getFirstBiggerThanNeighbours([3,2,1]) == -1;
+            return isCorrect;
+        }
+    </script>
+</body>
+</html>

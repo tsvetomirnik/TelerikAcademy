@@ -1,0 +1,45 @@
+﻿<!--
+	Write a function that finds all the occurrences of word in a text
+	- The search can case sensitive or case insensitive
+	- Use function overloading
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get word occurence count</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Get word occurence count</h1>
+    <script>
+        var text = "The Brown fox jump over the lazy brown dog.";
+        var word = " brown";
+
+        document.write("Text: " + text + "<br/>");
+        document.write("'" + word + "' case censitive count: " + GetWordOccurenceCount(text, word, true));
+        document.write("<br/>")
+        document.write("'" + word + "' not case censitive count: " + GetWordOccurenceCount(text, word, false));
+
+        function GetWordOccurenceCount(text, word, isCaseSensitive) {
+
+            if (isCaseSensitive === false) {
+                text = text.toLowerCase();
+                word = word.toLowerCase();
+            }
+
+            var wordCount = 0;
+            var wordIndex = -1;
+
+            do{
+                wordIndex = text.indexOf(word);
+                text = text.replace(word, "");
+                if (wordIndex > 0)
+                    wordCount++;
+            } while (wordIndex > 0);
+
+            return wordCount;
+        }
+    </script>
+</body>
+</html>

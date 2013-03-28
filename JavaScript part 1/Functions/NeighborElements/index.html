@@ -1,0 +1,53 @@
+﻿<!--
+	Write a function that checks if the element at given position in given array of 
+	integers is bigger than its two neighbors (when such exist).
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neighbor elements</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Neighbor elements</h1>
+    <p>
+        Write a function that checks if the element at given position 
+        in given array of integers is bigger than its two neighbors (when such exist).
+    </p>
+    <script>
+        document.write("Tests passed: " + test());
+
+        function isBiggerThanNeighbours(array, index) {
+			if (index < 0 || index > array.length){
+			    return false;
+            }
+
+            var isBiggerThanLeftElement = false;
+            if (index > 0) {
+                isBiggerThanLeftElement = array[index] > array[index - 1];
+            }
+
+            var isBiggerThanRightElement = false;
+            if (index < array.length - 1) {
+                isBiggerThanRightElement = array[index] > array[index + 1];
+            }
+
+            return isBiggerThanLeftElement && isBiggerThanRightElement;
+        }
+        
+        //Test function
+        function test() {
+            var array = [1, 2, 3, 4, 5, 4];
+
+            var isCorrect = true;
+            isCorrect = isCorrect && isBiggerThanNeighbours(array, 0) == false;
+            isCorrect = isCorrect && isBiggerThanNeighbours(array, 2) == false;
+            isCorrect = isCorrect && isBiggerThanNeighbours(array, 4) == true;
+            isCorrect = isCorrect && isBiggerThanNeighbours(array, 5) == false;
+            
+            return isCorrect;
+        }
+    </script>
+</body>
+</html>

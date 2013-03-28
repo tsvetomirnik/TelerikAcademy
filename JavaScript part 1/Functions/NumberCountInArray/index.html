@@ -1,0 +1,38 @@
+﻿<!--
+	Write a function that counts how many times given number appears in given array. 
+	Write a test function to check if the function is working correctly.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Count</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Number Count</h1>
+    <script>
+
+        document.write("Tests passed -> " + TestGetNumberCount());
+
+        function getNumberCount(number, arr) {
+            var numberCount = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == number) {
+                    numberCount++;
+                }
+            }
+
+            return numberCount;
+        }
+
+        function TestGetNumberCount() {
+            testPassed = getNumberCount(2, [1, 2, 3, 4, 2]) == 2;
+            testPassed = testPassed && getNumberCount(3, [3, 2, 3, 4, 3]) == 3;
+            testPassed = testPassed && getNumberCount(0, [1, 2, 3, 4, 5]) == 0;
+
+            return testPassed;
+        }
+    </script>
+</body>
+</html>

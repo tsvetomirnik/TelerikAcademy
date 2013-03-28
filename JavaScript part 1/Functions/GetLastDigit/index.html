@@ -1,0 +1,26 @@
+﻿<!--
+	Write a function that returns the last digit of given integer as an English word.
+	Examples: 512 -> "two", 1024 -> "four", 12309 -> "nine"
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get last digit</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Get last digit</h1>
+    <script>
+        var n = prompt("Insert n:");
+        document.write("Last digit is '" + GetLastDigit(n) + "'.");
+
+        function GetLastDigit(number)
+        {
+            var digitNames = ["zero", "one", "two", "tree", "four", "five", "six", "seven", "eight", "nine" ];
+
+            return digitNames[number % 10];
+        }
+    </script>
+</body>
+</html>

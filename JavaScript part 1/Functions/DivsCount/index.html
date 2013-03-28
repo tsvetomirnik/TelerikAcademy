@@ -1,0 +1,27 @@
+﻿<!--
+	Write a function to count the number of divs on the web page
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get DIVs Count</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Get DIVs Count</h1>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+    <script>
+		var element = "div";
+		document.write("There are " + getElementCount(element) + " '" + element + "' elements.");
+       
+		function getElementCount(element){
+			return document.getElementsByTagName(element).length;
+		}
+    </script>
+</body>
+</html>

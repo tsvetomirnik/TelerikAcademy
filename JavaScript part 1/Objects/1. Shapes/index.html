@@ -1,0 +1,63 @@
+﻿<!--
+	Write functions for working with shapes in  standard Planar coordinate system
+	- Points are represented by coordinates P(X, Y)
+	- Lines are represented by two points, marking their beginning and ending L(P1(X1,Y1),P2(X2,Y2))
+	- Calculate the distance between two points
+	- Check if three segment lines can form a triangle
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shapes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Shapes</h1>
+	
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    var p1 = { X: 0, Y: 0 };
+	    var p2 = { X: 4, Y: 4 };
+	    var p3 = { X: 1, Y: 2 };
+
+	    jsConsole.writeLine("Distance between two points: " + getDistance(p1, p2));
+
+	    var line1 = { A: p1, B: p2 };
+	    var line2 = { A: p2, B: p3 };
+	    var line3 = { A: p1, B: p3 };
+        
+	    jsConsole.writeLine("Current line can form triangle: " + canFormTriangle(line1, line2, line3));
+
+	    function getDistance(p1, p2) {
+	        return Math.sqrt((p1.X - p2.X) * (p1.X - p2.X) + (p1.Y - p2.Y) * (p1.Y - p2.Y));
+	    }
+
+	    function getLineLenght(line) {
+	        return getDistance(line.A, line.B);
+	    }
+
+	    function canFormTriangle(line1, line2, line3) {
+	        var lenght1 = getLineLenght(line1);
+	        var lenght2 = getLineLenght(line2);
+	        var lenght3 = getLineLenght(line3);
+
+	        if (lenght1 >= lenght2 + lenght3) {
+	            return false;
+	        }
+
+	        if (lenght2 >= lenght1 + lenght3) {
+	            return false;
+	        }
+
+	        if (lenght3 >= lenght1 + lenght2) {
+	            return false;
+	        }
+
+	        return true;
+	    }
+    </script>
+</body>
+</html>

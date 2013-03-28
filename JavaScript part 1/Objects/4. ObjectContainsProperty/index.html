@@ -1,0 +1,34 @@
+﻿<!--
+	Write a function that checks if a given object contains a given property
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check if object contains property</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Check if object contains property</h1>
+	
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    var customObject = { X: 2, Y: 2 };
+
+	    jsConsole.writeLine("Check if object contains property 'X': " + containsProperty(customObject, "X"));
+	    jsConsole.writeLine("Check if object contains property 'Z': " + containsProperty(customObject, "Z"));
+
+	    function containsProperty(obj, propertyName) {
+	        for (var objProperty in obj) {
+	            if (objProperty == propertyName) {
+	                return true;
+	            }
+	        }
+
+	        return false;
+	    }
+    </script>
+</body>
+</html>

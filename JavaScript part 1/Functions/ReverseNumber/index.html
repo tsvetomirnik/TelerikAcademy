@@ -1,0 +1,36 @@
+﻿<!--
+	Write a function that reverses the digits of given decimal number. Example: 256 -> 652
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Revert number</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Reverse number</h1>
+    <script>
+        var n = prompt("Insert n:");
+        document.write("Reversed number is '" + GetReversed(n) + "'.");
+
+        function GetReversed(number)
+        {
+            var strNumber = number.toString();
+            var strReverced;
+
+            var startedIndex = number < 0 ? 1 : 0;
+
+            for (i = startedIndex; i < strNumber.length; i++) {
+                strReverced = strNumber[i] + strReverced;
+            }
+
+            if (number < 0) {
+                strReverced = '-' + strReverced;
+            }
+
+            return parseFloat(strReverced);
+        }
+    </script>
+</body>
+</html>
