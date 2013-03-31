@@ -1,0 +1,55 @@
+﻿<!--
+	Write a script that parses an URL address
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL address extractor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>7. URL address extractor</h1>
+    <p>
+	    Write a script that parses an URL address and extracts from it the [protocol], [server] and [resource] elements. <br/>
+        Return the elements in a JSON object.
+    </p>
+
+    <div id="js-console">
+        <input type="text" id="tbContent"/> <br/>
+        <input type="submit" value="Submit" onclick="btnSubmitClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function btnSubmitClick() {
+	        var text = jsConsole.read("#tbContent");
+	        var addressInfo = getUrlAdressaInfo(text);
+
+	        jsConsole.write("<b>Protocol: </b>");
+	        jsConsole.writeLine(addressInfo.protocol);
+
+	        jsConsole.write("<b>Server: </b>");
+	        jsConsole.writeLine(addressInfo.server);
+
+	        jsConsole.write("<b>Resource: </b>");
+	        jsConsole.writeLine(addressInfo.resource);
+	    }
+
+	    function getUrlAdressaInfo(address) {
+	        var addressInfo = [];
+
+	        var protocol = address.substring(0, address.indexOf("://"));
+	        addressInfo["protocol"] = protocol;
+
+	        address = address.substring(protocol.length + 3, address.length);
+
+	        var server = address.substring(0, address.indexOf('/'));
+	        addressInfo["server"] = server;
+	        addressInfo["resource"] = address = address.substring(server.length, address.length);
+
+	        return addressInfo;
+	    }
+    </script>
+</body>
+</html>

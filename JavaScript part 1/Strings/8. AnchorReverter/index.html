@@ -1,0 +1,58 @@
+﻿<!--
+	Write a JavaScript function that replaces in a HTML document given as string all 
+    the tags <a href="…">…</a> with corresponding tags [URL=…]…/URL]. 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL address extractor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        textarea
+        {
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>8. Anchor Reverter</h1>
+    <p>
+	    Write a JavaScript function that replaces in a HTML document given as string all <br/>
+        the tags &lt;a href="…"&gt;…&lt;/a&gt; with corresponding tags [URL=…]…[/URL]. 
+    </p>
+
+    <div id="js-console">
+        <textarea id="tbContent"></textarea> <br/>
+        <input type="submit" value="Convert" onclick="btnConvertClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function btnConvertClick() {
+	        var content = jsConsole.read("#tbContent");
+	        var converted = convertAnchors(content);
+	        jsConsole.writeLine("Converted:");
+	        jsConsole.writeLine(converted);
+	    }
+
+	    function convertAnchors(content) {
+	        content = content.replaceAll("<a href=\"", "[URL=");
+	        content = content.replaceAll("\">", "]");
+	        content = content.replaceAll("</a>", "[\URL]");
+
+	        return content;
+	    }
+
+	    String.prototype.replaceAll = function (searchValue, replaceValue) {
+	        var content = this;
+	        while (content.indexOf(searchValue) != -1) {
+	            content = content.replace(searchValue, replaceValue);
+	        }
+
+	        return content;
+	    };
+    </script>
+</body>
+</html>

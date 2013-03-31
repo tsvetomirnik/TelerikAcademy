@@ -1,0 +1,62 @@
+﻿<!--
+	Write a JavaScript function to check if in a given expression the brackets are put correctly.
+    - Example of correct expression: ((a+b)/5-d).
+    - Example of incorrect expression: )(a+b)).
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brackets</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>2. Brackets</h1>
+    <p>
+	    Write a JavaScript function to check if in a given expression the brackets are put correctly. <br/>
+        - Example of correct expression: ((a+b)/5-d). <br/>
+        - Example of incorrect expression: )(a+b)).
+    </p>
+
+    <div id="js-console">
+        <input type="text" id="expression"/>
+        <input type="submit" value="Check" onclick="BtnCheckClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function BtnCheckClick() {
+	        var expression = jsConsole.read("#expression");
+	        if (CheckBrackets(expression)) {
+	            jsConsole.writeLine("'" + expression + "' is a valid expression.");
+	        }
+	        else {
+	            jsConsole.writeLine("'" + expression + "' is NOT a valid expression.");
+	        }
+	    }
+
+	    function CheckBrackets(expression) {
+	        var bracketsDepth = 0;
+
+	        for (var i = 0; i < expression.length; i++) {
+	            console.log(expression[i]);
+
+	            if (expression[i] == '(') {
+	                bracketsDepth++;
+	            }
+
+	            if (expression[i] == ')') {
+	                bracketsDepth--;
+	            }
+
+	            if (bracketsDepth < 0) {
+	                return false;
+	            }
+	        }
+
+	        return bracketsDepth == 0;
+	    }
+	   
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!--
+	Write a JavaScript function that finds how many times a substring is contained 
+    in a given text (perform case insensitive search).
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Substrings counter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        #taContent
+        {
+            height: 100px;
+            width: 300px;
+        }
+
+        #tbSearchedText
+        {
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <h1>3. Substrings counter</h1>
+    <p>
+	    Write a JavaScript function that finds how many times a substring is contained <br/>
+        in a given text (perform case insensitive search).
+    </p>
+
+    <div id="js-console">
+        <textarea id="taContent" placeholder="Insert some text"></textarea><br/>
+        <label for="tbSearchedText">Seach for: </label>
+        <input type="text" id="tbSearchedText"/>
+        <input type="submit" value="Get count" onclick="BtnGetCountClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function BtnGetCountClick() {
+	        var text = jsConsole.read("#taContent");
+	        var searchedText = jsConsole.read("#tbSearchedText");
+
+	        var count = CheckBrackets(text, searchedText);
+
+	        jsConsole.writeLine(count);
+	    }
+
+	    function CheckBrackets(content, seachedText) {
+	       
+	        var seachedTextCount = 0;
+	        var lastFoundIndex = 0;
+	        var hasSeachedText = false;
+	        var substring = content;
+	        do {
+	            lastFoundIndex = substring.indexOf(seachedText);
+	            console.log(lastFoundIndex);
+
+	            hasSeachedText = lastFoundIndex != -1;
+
+	            if (hasSeachedText) {
+	                seachedTextCount++;
+	                substring = substring.substring(lastFoundIndex + seachedText.length, content.length);
+	            }
+
+	        } while (hasSeachedText);
+
+	        return seachedTextCount;
+	    }
+	   
+    </script>
+</body>
+</html>

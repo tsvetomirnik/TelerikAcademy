@@ -1,0 +1,43 @@
+﻿<!--
+	Write a function that formats a string using placeholders
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL address extractor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>11. String placeholders</h1>
+    <p>
+	    Write a function that formats a string using placeholders.
+    </p>
+
+    <div id="js-console">
+        <label for="mask">Mask:</label>
+        <input type="text" id="mask" value="{0}, {1}, {0}!"/> <br/>
+        <input type="submit" value="Form" onclick="btnFormClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function btnFormClick() {
+	        var mask = jsConsole.read("#mask");
+	        jsConsole.writeLine(mask.format("Hello", "World"));
+	    }
+
+	    String.prototype.format = function () {
+	        var formatted = this;
+	        for (arg in arguments) {
+	            var argString = "{" + arg + "}";
+	            while (formatted.indexOf(argString)) {
+	                formatted = formatted.replace(argString, arguments[arg]);
+	            }
+	        }
+
+	        return formatted;
+	    };
+    </script>
+</body>
+</html>

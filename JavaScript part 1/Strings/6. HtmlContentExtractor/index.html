@@ -1,0 +1,62 @@
+﻿<!--
+	Write a function that replaces non breaking white-spaces in a text with &nbsp;
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Content Extractor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        #tbContent
+        {
+            height: 100px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>6. Html Content Extractor</h1>
+    <p>
+	    Write a function that extracts the content of a html page given as text. <br/>
+        The function should return anything that is in a tag, without the tags.
+    </p>
+
+    <div id="js-console">
+        <textarea id="tbContent"></textarea> <br/>
+        <input type="submit" value="Get content" onclick="btnGetContentClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function btnGetContentClick() {
+	        var text = jsConsole.read("#tbContent");
+	        jsConsole.writeLine("<b>Content:</b>");
+	        jsConsole.writeLine(text.getHtmlContent());
+	    }
+
+	    String.prototype.getHtmlContent = function () {
+	        var isInTag = false;
+	        var cleared = String();
+
+	        for (var i = 0; i < this.length; i++) {
+
+	            if (this[i] == '<') {
+	                isInTag = true;
+	                continue;
+	            }
+	            else if (this[i] == '>') {
+	                isInTag = false;
+	                continue;
+	            }
+
+	            if (!isInTag) {
+	                cleared += this[i];
+	            }
+	        }
+
+	        return cleared;
+	    }
+    </script>
+</body>
+</html>

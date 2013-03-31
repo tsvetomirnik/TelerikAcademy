@@ -1,0 +1,51 @@
+﻿<!--
+	Write a function that replaces non breaking white-spaces in a text with &nbsp;
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Replace White Spaces</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>5. Replace White Spaces</h1>
+    <p>
+	    Write a function that replaces non breaking white-spaces in a text with <b>&amp;nbsp;</b>
+    </p>
+
+    <div id="js-console">
+        <input type="text" id="tbContent"/>
+        <input type="submit" value="Submit" onclick="BtnSubmitClick()" />
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+	    function BtnSubmitClick() {
+	        var text = jsConsole.read("#tbContent");
+	        jsConsole.writeLine(text.toNonBreakableSpacesTest());
+	    }
+
+        //Real solution
+	    String.prototype.toNonBreakableSpaces = function () {
+	        var result = this;
+	        while (result.indexOf(" ") != -1) {
+	            result = result.replace(" ", "&nbsp;");
+	        }
+
+	        return result;
+	    }
+
+        //Only to show the result
+	    String.prototype.toNonBreakableSpacesTest = function () {
+	        var result = this;
+	        while (result.indexOf(" ") != -1) {
+	            result = result.replace(" ", "<b>&amp;nbsp;</b>");
+	        }
+
+	        return result;
+	    }
+	   
+    </script>
+</body>
+</html>
