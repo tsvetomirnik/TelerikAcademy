@@ -16,7 +16,7 @@ function Solve(args){
 
 	//TOD0: Implement the main logic...
 	
-	return sb.toString();
+	return args.toString();
 }
 
 
