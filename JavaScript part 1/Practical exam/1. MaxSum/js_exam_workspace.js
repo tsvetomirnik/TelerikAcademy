@@ -18,10 +18,8 @@ function Solve(args) {
 
     var maxSize = array[0];
     for (var i = 0; i < array.length; i++) {
-        var currentSize = 0;
-        
         for (var sequenseSize = 1; sequenseSize < array.length-i+1; sequenseSize++) {
-            currentSize = 0;
+            var currentSize = 0;
 
             for (var j = i; j < sequenseSize+i; j++) {
                 currentSize += array[j];
